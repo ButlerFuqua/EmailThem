@@ -8,29 +8,84 @@
 @import '~bootstrap/scss/bootstrap';
 
 
+// BASIC STYLES ====//
+
 *{
     margin: 0;
     padding: 0;
 }
 
+// HEADER STYLES ====//
+
 header{
     height: 5vh;
+    background: $blue;
+    color: $white;
+    overflow: hidden;
 }
 
+// MAIN STYLES ====//
 main{
     min-height: 95vh;
     display: flex;
     position: relative;
 }
 
+
+// SIDEBAR STYLES ====//
+
 #sidebar{
-    background: coral;
     width: 280px;
     position: relative;
+    border-right: $grey 1px solid;
+    margin-left: 0;
+
+    transition: .3s;
 }
 
+#sidebar.closed{
+    margin-left: -280px;
+}
+
+#sidebar h1{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#menuBtn{
+    width: 35px;
+    height: 90%;
+    position: relative;
+    left: 1rem;
+    top:0;
+    box-sizing: border-box;
+
+    cursor: pointer;
+}
+
+
+#menuBtn div{
+    height: 10%;
+    margin: 11.6% 0;
+    background: $white;
+}
+
+
+// PAGECONTET STYLES ====//
 #pageContent{
-    background: lightblue;
     flex-grow: 1;
     position: relative;
+    width: 100%;
+    border: 1px black solid;
 }
+
+// #pageContent.full{
+//     left: 280px;
+//     width: 100%;
+// }
+
+
+
+
+
