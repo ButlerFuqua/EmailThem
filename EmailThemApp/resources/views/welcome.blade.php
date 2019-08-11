@@ -1,7 +1,13 @@
-@extends('layouts.appPlain')
+@extends('layouts.head')
 
 
-@section('content')
+@section('body')
+
+
+<div id="app">
+
+</div>
+
 
 
 
