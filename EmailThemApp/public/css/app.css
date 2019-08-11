@@ -10667,7 +10667,8 @@ main {
   position: relative;
   border-right: #ccc 1px solid;
   margin-left: 0;
-  transition: 0.3s;
+  background: #f1f1f1;
+  transition: 0.5s;
 }
 
 #sidebar.closed {
@@ -10700,6 +10701,5 @@ main {
   flex-grow: 1;
   position: relative;
   width: 100%;
-  border: 1px black solid;
 }
 

@@ -39,8 +39,9 @@ main{
     position: relative;
     border-right: $grey 1px solid;
     margin-left: 0;
+    background: $lgrey;
 
-    transition: .3s;
+    transition: .5s;
 }
 
 #sidebar.closed{
@@ -77,13 +78,7 @@ main{
     flex-grow: 1;
     position: relative;
     width: 100%;
-    border: 1px black solid;
 }
-
-// #pageContent.full{
-//     left: 280px;
-//     width: 100%;
-// }
 
 
 
