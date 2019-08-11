@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Email Them</title>
     {{-- CSRF token --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -21,9 +21,7 @@
 <body>
 
     <div id="app">
-
         <header-component></header-component>
-
         <main>
             <sidebar-component></sidebar-component>
             <div id="pageContent" class>@yield('content')</div>
