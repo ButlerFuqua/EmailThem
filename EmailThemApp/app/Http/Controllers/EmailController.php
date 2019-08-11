@@ -14,7 +14,7 @@ class EmailController extends Controller
      */
     public function index()
     {
-        //
+        return view('emails.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class EmailController extends Controller
      */
     public function create()
     {
-        //
+        return view('emails.create');
     }
 
     /**
@@ -35,7 +35,7 @@ class EmailController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        echo 'store';
     }
 
     /**
@@ -46,7 +46,7 @@ class EmailController extends Controller
      */
     public function show(Email $email)
     {
-        //
+        return view('emails.show');
     }
 
     /**
@@ -57,7 +57,7 @@ class EmailController extends Controller
      */
     public function edit(Email $email)
     {
-        //
+        return view('emails.edit');
     }
 
     /**
@@ -69,7 +69,7 @@ class EmailController extends Controller
      */
     public function update(Request $request, Email $email)
     {
-        //
+        echo 'update';
     }
 
     /**
@@ -80,6 +80,6 @@ class EmailController extends Controller
      */
     public function destroy(Email $email)
     {
-        //
+        echo 'destroy';
     }
 }

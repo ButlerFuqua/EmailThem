@@ -17,15 +17,13 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="css/app.css">
     </head>
 
 <body>
 
     <div id="app">
-        <header-component></header-component>
         <main>
-            <sidebar-component></sidebar-component>
             <div id="pageContent" class>@yield('content')</div>
         </main>
     </div>
@@ -38,7 +36,7 @@
 
 
 
-    <script src="/js/app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

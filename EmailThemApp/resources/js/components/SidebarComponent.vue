@@ -4,10 +4,13 @@
     <hr />
     <ul class="nav flex-column">
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="/emails/create">Create Email</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="/emails/">Saved emails</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/emails/">Sent Emails</a>
       </li>
     </ul>
   </div>

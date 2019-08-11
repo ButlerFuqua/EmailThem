@@ -1916,6 +1916,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {},
   methods: {}
@@ -37310,14 +37313,22 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("ul", { staticClass: "nav flex-column" }, [
         _c("li", { staticClass: "nav-item" }, [
-          _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-            _vm._v("Link")
+          _c(
+            "a",
+            { staticClass: "nav-link", attrs: { href: "/emails/create" } },
+            [_vm._v("Create Email")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c("a", { staticClass: "nav-link", attrs: { href: "/emails/" } }, [
+            _vm._v("Saved emails")
           ])
         ]),
         _vm._v(" "),
         _c("li", { staticClass: "nav-item" }, [
-          _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-            _vm._v("Link")
+          _c("a", { staticClass: "nav-link", attrs: { href: "/emails/" } }, [
+            _vm._v("Sent Emails")
           ])
         ])
       ])
