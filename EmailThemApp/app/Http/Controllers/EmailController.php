@@ -35,7 +35,7 @@ class EmailController extends Controller
      */
     public function store(Request $request)
     {
-        echo 'store';
+        dd(request());
     }
 
     /**

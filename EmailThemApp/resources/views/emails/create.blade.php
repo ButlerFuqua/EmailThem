@@ -3,8 +3,10 @@
 @section('content')
 
 
-<h1>Create</h1>
+<h2 class="mt-3">Create email</h2>
+<hr>
+<br>
 
-<editor-component></editor-component>
+<create-component></create-component>
 
 @endsection

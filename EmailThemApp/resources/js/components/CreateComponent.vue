@@ -17,6 +17,9 @@
         <label for="wysiwyg">Email Message</label>
         <textarea name="body" class="form-control" id="wysiwyg" cols="30" rows="10"></textarea>
       </div>
+      <div class="form-group">
+        <input type="submit" class="btn btn-outline-primary" value="submit" />
+      </div>
     </form>
   </div>
 </template>
