@@ -19,6 +19,7 @@ class CreateEmailsTable extends Migration
             $table->string('from');
             $table->string('subject');
             $table->text('body');
+            $table->string('created');
             $table->boolean('hasSent');
 
             $table->timestamps();

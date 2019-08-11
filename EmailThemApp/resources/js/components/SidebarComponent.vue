@@ -10,7 +10,7 @@
         <a class="nav-link" href="/emails/">Saved emails</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/emails/">Sent Emails</a>
+        <a class="nav-link" href="/emails/archived">Sent Emails</a>
       </li>
     </ul>
   </div>

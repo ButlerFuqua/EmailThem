@@ -14,7 +14,14 @@ class EmailController extends Controller
      */
     public function index()
     {
-        return view('emails.index');
+        $emails = \DB::table('emails')->where('hasSent', 0)->paginate(5);
+        return view('emails.index', ['emails' => $emails, 'title' => 'Saved Emails']);
+    }
+
+    public function archived()
+    {
+        $emails = \DB::table('emails')->where('hasSent', 1)->paginate(20);
+        return view('emails.index', ['emails' => $emails, 'title' => 'Sent Emails']);
     }
 
     /**
@@ -24,6 +31,7 @@ class EmailController extends Controller
      */
     public function create()
     {
+
         return view('emails.create');
     }
 
@@ -35,7 +43,18 @@ class EmailController extends Controller
      */
     public function store(Request $request)
     {
-        dd(request());
+        $email = new Email();
+
+        $email->title = request('title');
+        $email->from = request('from');
+        $email->subject = request('subject');
+        $email->body = request('body');
+        $email->created = date('m/d/y');
+        $email->hasSent = false;
+
+        $email->save();
+
+        return redirect('/emails');
     }
 
     /**
