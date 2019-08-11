@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Email;
 use Illuminate\Http\Request;
+use App\Mail\SendAll;
 
 class EmailController extends Controller
 {
@@ -14,13 +15,13 @@ class EmailController extends Controller
      */
     public function index()
     {
-        $emails = \DB::table('emails')->where('hasSent', 0)->paginate(5);
+        $emails = \DB::table('emails')->where('hasSent', 0)->orderBy('id', 'DESC')->paginate(5);
         return view('emails.index', ['emails' => $emails, 'title' => 'Saved Emails']);
     }
 
     public function archived()
     {
-        $emails = \DB::table('emails')->where('hasSent', 1)->paginate(20);
+        $emails = \DB::table('emails')->where('hasSent', 1)->orderBy('id', 'DESC')->paginate(20);
         return view('emails.index', ['emails' => $emails, 'title' => 'Sent Emails']);
     }
 
@@ -43,6 +44,15 @@ class EmailController extends Controller
      */
     public function store(Request $request)
     {
+
+        $request->validate([
+            'title' => 'required',
+            'from' => 'required',
+            'subject' => 'required',
+            'body' => 'required'
+        ]);
+
+
         $email = new Email();
 
         $email->title = request('title');
@@ -65,7 +75,7 @@ class EmailController extends Controller
      */
     public function show(Email $email)
     {
-        return view('emails.show');
+        return view('emails.show', ['email' => $email]);
     }
 
     /**
@@ -76,7 +86,7 @@ class EmailController extends Controller
      */
     public function edit(Email $email)
     {
-        return view('emails.edit');
+        return view('emails.edit', ['email' => $email]);
     }
 
     /**
@@ -88,7 +98,22 @@ class EmailController extends Controller
      */
     public function update(Request $request, Email $email)
     {
-        echo 'update';
+
+        $request->validate([
+            'title' => 'required',
+            'from' => 'required',
+            'subject' => 'required',
+            'body' => 'required'
+        ]);
+
+        $email->title = request('title');
+        $email->from = request('from');
+        $email->subject = request('subject');
+        $email->body = request('body');
+
+        $email->save();
+
+        return redirect("emails/{$email->id}");
     }
 
     /**
@@ -99,6 +124,22 @@ class EmailController extends Controller
      */
     public function destroy(Email $email)
     {
-        echo 'destroy';
+        $email->delete();
+
+        return redirect('/emails');
+    }
+
+    public function sendEmail()
+    {
+        $email = Email::find(request('id'));
+
+        \Mail::to('butlerfuqua@gmail.com')->send(
+            new SendAll($email)
+        );
+
+        $email->hasSent = true;
+        $email->save();
+
+        return redirect('/emails/archived');
     }
 }

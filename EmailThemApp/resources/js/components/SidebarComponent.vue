@@ -4,6 +4,9 @@
     <hr />
     <ul class="nav flex-column">
       <li class="nav-item">
+        <a class="nav-link" href="/signups">View List</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="/emails/create">Create Email</a>
       </li>
       <li class="nav-item">

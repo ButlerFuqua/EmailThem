@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::post('/emails/{id}/sendemail', 'EmailController@sendEmail');
+
 Route::get('/emails/archived', 'EmailController@archived');
 
 Route::resource('emails', 'EmailController');
