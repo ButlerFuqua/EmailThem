@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Signup;
 use Illuminate\Http\Request;
+use App\Mail\WelcomeEmail;
 
 class SignupController extends Controller
 {
@@ -14,7 +15,8 @@ class SignupController extends Controller
      */
     public function index()
     {
-        echo 'index';
+        $signups = \DB::table('signups')->orderBy('id', 'DESC')->paginate(20);
+        return view('signups.index', ['signups' => $signups]);
     }
 
     /**
@@ -24,7 +26,7 @@ class SignupController extends Controller
      */
     public function create()
     {
-        echo 'create';
+        return view('signups.create');
     }
 
     /**
@@ -35,7 +37,24 @@ class SignupController extends Controller
      */
     public function store(Request $request)
     {
-        echo 'store';
+
+        $email = \DB::table('signups')->where('email', request('email'))->first();
+        if ($email == null) {
+            $signup = new Signup();
+
+            $signup->email = request('email');
+            $signup->added = date('m/d/y');
+
+            $signup->save();
+
+            \Mail::to($signup->email)->send(
+                new WelcomeEmail($signup)
+            );
+            return redirect('/signups');
+        } else {
+            echo 'Sorry, that email is invalid or already taken. <br> <a href="/signups/create">&larr; Back</a>';
+            // return view('signups.create');
+        }
     }
 
     /**
@@ -46,7 +65,7 @@ class SignupController extends Controller
      */
     public function show(Signup $signup)
     {
-        echo 'show';
+        return view('signups.show', ['signup' => $signup]);
     }
 
     /**
@@ -57,7 +76,7 @@ class SignupController extends Controller
      */
     public function edit(Signup $signup)
     {
-        echo 'edit';
+        return view('signups.edit', ['signup' => $signup]);
     }
 
     /**
@@ -69,7 +88,23 @@ class SignupController extends Controller
      */
     public function update(Request $request, Signup $signup)
     {
-        echo 'update';
+        $email = \DB::table('signups')->where('email', request('email'))->first();
+        if ($email == null) {
+
+
+            $signup->email = request('email');
+            $signup->added = date('m/d/y');
+
+            $signup->save();
+
+            \Mail::to($signup->email)->send(
+                new WelcomeEmail($signup)
+            );
+            return redirect('/signups');
+        } else {
+            echo 'Sorry, that email is invalid or already taken. <br> <a href="/signups/create">&larr; Back</a>';
+            // return view('signups.create');
+        }
     }
 
     /**
@@ -80,6 +115,7 @@ class SignupController extends Controller
      */
     public function destroy(Signup $signup)
     {
-        echo 'destroy';
+        $signup->delete();
+        return redirect('/signups');
     }
 }

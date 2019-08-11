@@ -14,6 +14,10 @@ use App\Http\Controllers\EmailController;
 */
 
 Route::get('/', function () {
+    return redirect('/signups/create');
+});
+
+Route::get('/login', function () {
     return view('welcome');
 });
 

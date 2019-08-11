@@ -15,6 +15,8 @@ class CreateSignupsTable extends Migration
     {
         Schema::create('signups', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->text('email');
+            $table->string('added');
             $table->timestamps();
         });
     }
