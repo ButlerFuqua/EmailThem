@@ -34,6 +34,9 @@ const app = new Vue({
     el: '#app',
 });
 
+if (window.innerWidth <= 768) {
+    document.getElementById("sidebar").classList.add("closed");
+}
 
 
 

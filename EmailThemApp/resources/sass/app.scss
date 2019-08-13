@@ -79,9 +79,18 @@ main{
     flex-grow: 1;
     position: relative;
     width: 100%;
+    overflow: auto;
 }
 
 
 
 
 
+// Media queries
+@media(max-width: 768px){
+    #sidebar{
+        position: absolute;
+        z-index: 99;
+        height: 100%;
+    }
+}
