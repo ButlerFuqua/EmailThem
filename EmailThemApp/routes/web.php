@@ -27,3 +27,7 @@ Route::get('/emails/archived', 'EmailController@archived');
 
 Route::resource('emails', 'EmailController');
 Route::resource('signups', 'SignupController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
