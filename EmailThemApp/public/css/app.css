@@ -10705,12 +10705,12 @@ main {
 }
 
 .signupContainer.female {
-  background: lightblue;
   height: 100vh;
   display: flex;
 }
 
 .signupContainer.female .leftSide {
+  background: url("/images/girl_charcter.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
