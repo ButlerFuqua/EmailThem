@@ -4,10 +4,14 @@
 @section('body')
 
 
-<div id="app" class="signupContainer">
+<div id="app" class="signupContainer female">
 
 <div class="leftSide">
-
+    <div class="infoCard">
+        <h3>Anime Dating</h3>
+        <p>A dating website for true fans of Anime.</p>
+        <p>Launching February 2020</p>
+    </div>
 </div>
 <div class="rightSide">
     <div class="theContent shadow-lg">
@@ -15,10 +19,18 @@
             @csrf
             <div class="form-group">
                 <label for="email">Enter Email</label>
-                <input id="email" name="email" type="email" class="form-control" required>
-                <input type="submit" class="button button-1 button-2 mt-3">
+                <input id="email" name="email" type="email" class="form-control position-relative shadow-sm" required>
+                <div class="btnContainer">
+                    <button type="submit" class="shadow">
+                        Submit
+                        <span class="wave_1"></span>
+                        <span class="wave_2"></span>
+                        <span class="wave_3"></span>
+                    </button>
+                </div>
             </div>
         </form>
+        
     </div>
 </div>
 

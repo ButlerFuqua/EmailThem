@@ -10704,21 +10704,36 @@ main {
   overflow: auto;
 }
 
-.signupContainer {
+.signupContainer.female {
   background: lightblue;
   height: 100vh;
   display: flex;
 }
 
-.signupContainer .leftSide {
-  background: url("/images/temp_copyrighted_anime_woman.jpg");
+.signupContainer.female .leftSide {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 60%;
+  position: relative;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 2rem;
 }
 
-.signupContainer .rightSide {
+.leftSide .infoCard {
+  text-align: center;
+  width: 22rem;
+  max-width: 90%;
+  padding: 1rem;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #d555ff 0%, #f1f1f1 100%);
+}
+
+.signupContainer.female .rightSide {
   background-image: linear-gradient(to top, #a01eea 0%, #ff55d3 31%, #fa71cd 100%);
   flex-grow: 1;
   display: flex;
@@ -10728,31 +10743,106 @@ main {
   align-items: center;
 }
 
-.signupContainer .rightSide .theContent {
+.signupContainer.female .rightSide .theContent {
   width: 90%;
   padding: 1rem;
   background: #f1f1f1;
   border-radius: 5px;
+  position: relative;
+  overflow: hidden;
 }
 
-.button {
-  padding: 6px 18px;
-  text-align: center;
+.signupContainer.female .rightSide .theContent input:focus {
+  border-color: #a01eea;
 }
 
-.button-2 {
-  color: #fff;
-  border: 3px solid #c266d3;
-  background-image: linear-gradient(30deg, #c266d3 50%, transparent 50%);
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: 0%;
-  transition: background 300ms ease-in-out;
+.signupContainer.female .rightSide .theContent .btnContainer {
+  margin-top: 1rem;
 }
 
-.button-2:hover {
-  background-position: 100%;
-  color: #c266d3;
+.signupContainer.female .rightSide .theContent .btnContainer button {
+  color: #a01eea;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  border: solid 3px #a01eea;
+  background: #fff;
+  transition: all 1s ease;
+  padding: 0.5rem 1rem;
+}
+
+.signupContainer.female .rightSide .theContent .btnContainer button span {
+  position: absolute;
+  content: "";
+  top: 1.75em;
+  left: 50%;
+  width: 20em;
+  height: 20em;
+  margin-left: -10em;
+  border-radius: 42.5%;
+  transform-origin: 50% 50%;
+  transition: all 1s ease, top 1.5s ease;
+}
+
+.signupContainer.female .rightSide .theContent .btnContainer button span.wave_1 {
+  background: #ff4242;
+  -webkit-animation: smallwave 3s infinite linear;
+          animation: smallwave 3s infinite linear;
+}
+
+.signupContainer.female .rightSide .theContent .btnContainer button span.wave_2 {
+  background: #f35c78;
+  -webkit-animation: smallwave 4s infinite linear;
+          animation: smallwave 4s infinite linear;
+}
+
+.signupContainer.female .rightSide .theContent .btnContainer button span.wave_3 {
+  background: #dd33ff;
+  -webkit-animation: smallwave 5s infinite linear;
+          animation: smallwave 5s infinite linear;
+}
+
+.signupContainer.female .rightSide .theContent .btnContainer button:hover {
+  transition: all 1s ease;
+}
+
+.signupContainer.female .rightSide .theContent .btnContainer button:hover span {
+  top: 0.5em;
+  transition: all 1s ease, top 1.5s ease;
+}
+
+@-webkit-keyframes smallwave {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: rotate(180deg) scale(0.95);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes smallwave {
+  0% {
+    transform: rotate(0deg) scale(1);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: rotate(180deg) scale(0.95);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1);
+    opacity: 0.8;
+  }
 }
 
 @media (max-width: 768px) {
