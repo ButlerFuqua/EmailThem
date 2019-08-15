@@ -86,9 +86,12 @@ main{
     overflow: auto;
 }
 
+.mobileOnly{
+    display: none;
+}
 
 
-
+@import 'mobileLandingPage';
 
 
 // Media queries

@@ -34,7 +34,13 @@
                 </div>
             </div>
         </form>
-        
+    </div>
+    <div class="cardBorders mobileOnly">
+        <div class="infoCard shadow">
+            <h3>Anime Dating</h3>
+            <p>A dating website for true fans of Anime.</p>
+            <p>Launching February 2020</p>
+        </div>
     </div>
 </div>
 

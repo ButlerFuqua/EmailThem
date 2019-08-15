@@ -49579,7 +49579,7 @@ var app = new Vue({
   el: '#app'
 });
 
-if (window.innerWidth <= 768) {
+if (window.innerWidth <= 768 && document.getElementById("sidebar") !== null) {
   document.getElementById("sidebar").classList.add("closed");
 }
 

@@ -10885,6 +10885,20 @@ main {
   overflow: auto;
 }
 
+.mobileOnly {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobileOnly {
+    display: block;
+  }
+
+  .signupContainer .leftSide {
+    display: none !important;
+  }
+}
+
 @media (max-width: 768px) {
   #sidebar {
     position: absolute;
