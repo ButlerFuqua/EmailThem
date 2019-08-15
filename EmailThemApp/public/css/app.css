@@ -10752,6 +10752,10 @@ main {
   overflow: hidden;
 }
 
+.signupContainer.female .rightSide .theContent input {
+  border-color: #8a8a8aa3;
+}
+
 .signupContainer.female .rightSide .theContent input:focus {
   border-color: #a01eea;
 }
