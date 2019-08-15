@@ -66,29 +66,35 @@
  }
  
  .signupContainer.female .rightSide{
-     // background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
-     background-image: linear-gradient(to top, #a01eea 0%, #ff55d3 31%, #fa71cd 100%);
-     
- 
-     flex-grow: 1;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-content: center;
-     align-items: center;
- }
+    // background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    background-image: linear-gradient(to top, #a01eea 0%, #ff55d3 31%, #fa71cd 100%);
+    
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
  
  .signupContainer.female .rightSide .theContent{
-     width: 90%;
-     padding: 1rem;
-     background: $white;
-     border-radius: 5px;
-     position: relative;
-     overflow: hidden;
- }
+    width: 90%;
+    padding: 1rem;
+    background: $white;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.signupContainer.female .rightSide .theContent form label{
+    font-family: $display-font;
+    font-size: 2rem;
+  }
  
  .signupContainer.female .rightSide .theContent input{
-   border-color: #8a8a8aa3;;
+   border-color: #8a8a8aa3;
  }
  .signupContainer.female .rightSide .theContent input:focus{
      border-color: #a01eea;
@@ -163,7 +169,9 @@
  
  
    
- 
+ .mobileImgBG{
+     display: none;
+ }
  
  
  

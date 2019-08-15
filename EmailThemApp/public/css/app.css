@@ -10728,6 +10728,11 @@ a.text-dark:focus {
   overflow: hidden;
 }
 
+.signupContainer.female .rightSide .theContent form label {
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 2rem;
+}
+
 .signupContainer.female .rightSide .theContent input {
   border-color: #8a8a8aa3;
 }
@@ -10825,6 +10830,10 @@ a.text-dark:focus {
   }
 }
 
+.mobileImgBG {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10889,13 +10898,42 @@ main {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .mobileOnly {
     display: block;
   }
 
   .signupContainer .leftSide {
     display: none !important;
+  }
+
+  .signupContainer .rightSide .infoCard {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 1rem;
+    background: #ffffffb8;
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .signupContainer .rightSide .infoCard h3 {
+    font-family: "Ma Shan Zheng", cursive;
+    font-size: 4rem;
+    position: relative;
+    transform: rotate(-6deg);
+  }
+
+  .mobileImgBG {
+    display: block;
+    background: url("/images/girl_charcter.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
   }
 }
 
