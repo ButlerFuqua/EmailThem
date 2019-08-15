@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10644,66 +10644,6 @@ a.text-dark:focus {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  height: 5vh;
-  background: #3490dc;
-  color: #f1f1f1;
-  overflow: hidden;
-}
-
-main {
-  min-height: 95vh;
-  display: flex;
-  position: relative;
-}
-
-#sidebar {
-  width: 280px;
-  position: relative;
-  border-right: #ccc 1px solid;
-  margin-left: 0;
-  background: #f1f1f1;
-  transition: 0.5s;
-}
-
-#sidebar.closed {
-  margin-left: -280px;
-}
-
-#sidebar h1 {
-  font-size: 1.5rem;
-  text-align: center;
-  padding-top: 1rem;
-}
-
-#menuBtn {
-  width: 35px;
-  height: 90%;
-  position: relative;
-  left: 1rem;
-  top: 0;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-
-#menuBtn div {
-  height: 10%;
-  margin: 11.6% 0;
-  background: #f1f1f1;
-}
-
-#pageContent {
-  flex-grow: 1;
-  position: relative;
-  width: 100%;
-  overflow: auto;
-}
-
 .signupContainer.female {
   height: 100vh;
   display: flex;
@@ -10724,13 +10664,49 @@ main {
   padding-bottom: 2rem;
 }
 
+.leftSide .cardBorders {
+  border-top: 3px solid #323232;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #323232;
+  overflow: hidden;
+  min-width: 100%;
+  max-height: 100%;
+}
+
 .leftSide .infoCard {
   text-align: center;
+  position: relative;
   width: 22rem;
   max-width: 90%;
   padding: 1rem;
-  border-radius: 5px;
-  background-image: linear-gradient(to right, #d555ff 0%, #f1f1f1 100%);
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  color: #000;
+}
+
+.display_font {
+  font-family: "Ma Shan Zheng", cursive;
+}
+
+.leftSide .infoCard h3 {
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 4rem;
+  position: relative;
+  transform: rotate(-6deg);
+}
+
+.leftSide .cardLine {
+  width: 100%;
+  height: 3px;
+  background: #323232;
+}
+
+.leftSide .cardLine_1 {
+  transform: rotate(3deg);
+}
+
+.leftSide .cardLine_2 {
+  transform: rotate(-7deg);
 }
 
 .signupContainer.female .rightSide {
@@ -10847,6 +10823,66 @@ main {
     transform: rotate(360deg) scale(1);
     opacity: 0.8;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 5vh;
+  background: #3490dc;
+  color: #f1f1f1;
+  overflow: hidden;
+}
+
+main {
+  min-height: 95vh;
+  display: flex;
+  position: relative;
+}
+
+#sidebar {
+  width: 280px;
+  position: relative;
+  border-right: #ccc 1px solid;
+  margin-left: 0;
+  background: #f1f1f1;
+  transition: 0.5s;
+}
+
+#sidebar.closed {
+  margin-left: -280px;
+}
+
+#sidebar h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#menuBtn {
+  width: 35px;
+  height: 90%;
+  position: relative;
+  left: 1rem;
+  top: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#menuBtn div {
+  height: 10%;
+  margin: 11.6% 0;
+  background: #f1f1f1;
+}
+
+#pageContent {
+  flex-grow: 1;
+  position: relative;
+  width: 100%;
+  overflow: auto;
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,174 @@
+
+// Landing Page ====//
+
+.signupContainer.female{
+    height: 100vh;
+    display: flex;
+ }
+ .signupContainer.female .leftSide{
+     background: url('/images/girl_charcter.svg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     width: 60%;
+     position: relative;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: center;
+     padding-bottom: 2rem;
+ }
+ 
+ .leftSide .cardBorders{
+     border-top: 3px solid #323232;
+     display: flex;
+     justify-content: center;
+     border-bottom: 3px solid #323232;
+     overflow: hidden;
+     min-width: 100%;
+     max-height: 100%;
+ }
+ 
+ .leftSide .infoCard{
+     text-align: center;
+     position: relative;
+     width: 22rem;
+     max-width: 90%;
+     padding: 1rem;
+     background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+     color: #000;
+ }
+ 
+ .display_font{
+     font-family: $display-font;
+ }
+ 
+ .leftSide .infoCard h3{
+     font-family: $display-font;
+     font-size: 4rem;
+     position: relative;
+     transform: rotate(-6deg);
+ }
+ 
+ .leftSide .cardLine{
+     width: 100%;
+     height: 3px;
+     background: $dark;
+ }
+ 
+ .leftSide .cardLine_1{
+     transform: rotate(3deg);
+ }
+ 
+ .leftSide .cardLine_2{
+     transform: rotate(-7deg);
+ }
+ 
+ .signupContainer.female .rightSide{
+     // background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+     background-image: linear-gradient(to top, #a01eea 0%, #ff55d3 31%, #fa71cd 100%);
+     
+ 
+     flex-grow: 1;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+ }
+ 
+ .signupContainer.female .rightSide .theContent{
+     width: 90%;
+     padding: 1rem;
+     background: $white;
+     border-radius: 5px;
+     position: relative;
+     overflow: hidden;
+ }
+ 
+ .signupContainer.female .rightSide .theContent input{
+   border-color: #8a8a8aa3;;
+ }
+ .signupContainer.female .rightSide .theContent input:focus{
+     border-color: #a01eea;
+ }
+ 
+ .signupContainer.female .rightSide .theContent .btnContainer{
+     margin-top: 1rem;
+ }
+ 
+ .signupContainer.female .rightSide .theContent .btnContainer button{
+     color: #a01eea;
+     overflow: hidden;
+     position: relative;
+     border-radius: 5px;
+     border: solid 3px #a01eea;
+     background: #fff;
+     transition: all 1s ease;
+     padding: .5rem 1rem;
+ }
+ 
+ .signupContainer.female .rightSide .theContent .btnContainer button span{
+     position: absolute;
+     content: '';
+     top: 1.75em;
+     left: 50%;
+     width: 20em;
+     height: 20em;
+     margin-left: -10em;
+     border-radius: 42.5%;
+     transform-origin: 50% 50%;
+     transition: all 1s ease, top 1.5s ease;
+ }
+ .signupContainer.female .rightSide .theContent .btnContainer button span.wave_1 {
+     background: #ff4242;
+     animation: smallwave 3s infinite linear;
+   }
+   .signupContainer.female .rightSide .theContent .btnContainer button span.wave_2 {
+     background: #f35c78;
+     animation: smallwave 4s infinite linear;
+   }
+ 
+   .signupContainer.female .rightSide .theContent .btnContainer button span.wave_3 {
+     background: #dd33ff;
+     animation: smallwave 5s infinite linear;
+   }
+ 
+  .signupContainer.female .rightSide .theContent .btnContainer button:hover {
+     transition: all 1s ease;
+   }
+ 
+   .signupContainer.female .rightSide .theContent .btnContainer button:hover span {
+     top: 0.5em;
+     transition: all 1s ease, top 1.5s ease;
+   }
+ 
+   @keyframes smallwave {
+     0% {
+       transform: rotate(0deg) scale(1);
+       opacity: 0.8;
+     }
+     50% {
+       transform: rotate(180deg) scale(0.95);
+       opacity: 0.25;
+     }
+     100% {
+       transform: rotate(360deg) scale(1);
+       opacity: 0.8;
+     }
+   }
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ //==================//
+ 

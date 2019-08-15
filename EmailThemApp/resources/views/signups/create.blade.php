@@ -7,11 +7,15 @@
 <div id="app" class="signupContainer female">
 
 <div class="leftSide">
-    <div class="infoCard">
-        <h3>Anime Dating</h3>
-        <p>A dating website for true fans of Anime.</p>
-        <p>Launching February 2020</p>
-    </div>
+    <div class="cardLine cardLine_1"></div>
+        <div class="cardBorders">
+            <div class="infoCard shadow">
+                <h3>Anime Dating</h3>
+                <p>A dating website for true fans of Anime.</p>
+                <p>Launching February 2020</p>
+            </div>
+        </div>
+    <div class="cardLine cardLine_2"></div>
 </div>
 <div class="rightSide">
     <div class="theContent shadow-lg">
