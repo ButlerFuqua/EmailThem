@@ -10696,20 +10696,6 @@ a.text-dark:focus {
   transform: rotate(-6deg);
 }
 
-.leftSide .cardLine {
-  width: 100%;
-  height: 3px;
-  background: #323232;
-}
-
-.leftSide .cardLine_1 {
-  transform: rotate(3deg);
-}
-
-.leftSide .cardLine_2 {
-  transform: rotate(-7deg);
-}
-
 .signupContainer.female .rightSide {
   background-image: linear-gradient(to top, #a01eea 0%, #ff55d3 31%, #fa71cd 100%);
   flex-grow: 1;

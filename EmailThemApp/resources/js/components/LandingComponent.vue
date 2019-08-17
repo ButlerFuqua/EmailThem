@@ -1,15 +1,15 @@
 <template>
   <div class="signupContainer female">
     <div class="leftSide">
-      <div class="cardLine cardLine_1"></div>
-      <div class="cardBorders">
-        <div class="infoCard shadow">
-          <h3>Anime Dating</h3>
-          <p>A dating website for true fans of Anime.</p>
-          <p>Launching February 2020</p>
+      <div class="cardBordersContainer">
+        <div class="cardBorders">
+          <div class="infoCard shadow">
+            <h3>Anime Dating</h3>
+            <p>A dating website for true fans of Anime.</p>
+            <p>Launching February 2020</p>
+          </div>
         </div>
       </div>
-      <div class="cardLine cardLine_2"></div>
     </div>
 
     <div class="rightSide">
@@ -28,12 +28,10 @@
           <p>Launching February 2020</p>
         </div>
         <div class="theContent mb-3">
+          <h3 class="display_font">Are you on the list!?</h3>
           <p>Submit your email to be notified of the launch date and to learn more about this project.</p>
-          <p v-if="count.length >= 1">
-            <strong>{{ count }}</strong> people have already signed up to be notified!
-          </p>
         </div>
-        <div class="theContent shadow-lg">
+        <div class="theContent shadow-lg formContent">
           <form action="/signups" method="post">
             <input type="hidden" name="_token" :value="csrf" />
             <div class="form-group">
@@ -57,6 +55,12 @@
               </div>
             </div>
           </form>
+        </div>
+        <div v-if="count.length >= 1" class="d-flex align-items-center theContent mt-3">
+          <p class="mb-0">
+            <strong style="font-size: 2.5rem;" class="display_font mr-1">{{ count }}</strong>
+          </p>
+          <p class="mb-0">people have already signed up to be notified!</p>
         </div>
       </div>
     </div>
@@ -82,4 +86,86 @@ export default {
 
 
 <style scoped>
+.leftSide {
+  position: relative;
+  right: 100%;
+  animation: animeleftDesktop 1s 0s 1 forwards;
+}
+
+@keyframes animeleftDesktop {
+  0% {
+    right: 100%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    right: 0%;
+    opacity: 1;
+  }
+}
+
+.cardBordersContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+
+  animation: showCardBordersContainer 0.5s 1s 1 forwards;
+}
+
+@keyframes showCardBordersContainer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cardBorders {
+  max-height: 0;
+  animation: cardBordersAnim 1s 1s 1 forwards;
+}
+
+@keyframes cardBordersAnim {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 100%;
+  }
+}
+
+.rightSide {
+  position: relative;
+  top: 100vh;
+  animation: animeRightDesktop 1s 1.5s 1 forwards;
+}
+
+@keyframes animeRightDesktop {
+  0% {
+    top: 100vh;
+  }
+  100% {
+    top: 0vh;
+  }
+}
+
+.theContent {
+  position: relative;
+  opacity: 0;
+  animation: showForm 0.8s 2.5s 1 forwards;
+}
+@keyframes showForm {
+  0% {
+    bottom: 1rem;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
 </style>
