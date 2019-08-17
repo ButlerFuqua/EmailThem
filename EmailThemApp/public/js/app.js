@@ -1992,11 +1992,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {},
   data: function data() {
@@ -6503,7 +6498,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.leftSide[data-v-76a13c11] {\n  position: relative;\n  right: 100%;\n  -webkit-animation: animeleftDesktop-data-v-76a13c11 1s 0s 1 forwards;\n          animation: animeleftDesktop-data-v-76a13c11 1s 0s 1 forwards;\n}\n@-webkit-keyframes animeleftDesktop-data-v-76a13c11 {\n0% {\n    right: 100%;\n    opacity: 0;\n}\n50% {\n    opacity: 0;\n}\n100% {\n    right: 0%;\n    opacity: 1;\n}\n}\n@keyframes animeleftDesktop-data-v-76a13c11 {\n0% {\n    right: 100%;\n    opacity: 0;\n}\n50% {\n    opacity: 0;\n}\n100% {\n    right: 0%;\n    opacity: 1;\n}\n}\n.cardBordersContainer[data-v-76a13c11] {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  opacity: 0;\n\n  -webkit-animation: showCardBordersContainer-data-v-76a13c11 0.5s 1s 1 forwards;\n\n          animation: showCardBordersContainer-data-v-76a13c11 0.5s 1s 1 forwards;\n}\n@-webkit-keyframes showCardBordersContainer-data-v-76a13c11 {\n0% {\n    opacity: 0;\n}\n100% {\n    opacity: 1;\n}\n}\n@keyframes showCardBordersContainer-data-v-76a13c11 {\n0% {\n    opacity: 0;\n}\n100% {\n    opacity: 1;\n}\n}\n.cardBorders[data-v-76a13c11] {\n  max-height: 0;\n  -webkit-animation: cardBordersAnim-data-v-76a13c11 1s 1s 1 forwards;\n          animation: cardBordersAnim-data-v-76a13c11 1s 1s 1 forwards;\n}\n@-webkit-keyframes cardBordersAnim-data-v-76a13c11 {\n0% {\n    max-height: 0;\n}\n100% {\n    max-height: 100%;\n}\n}\n@keyframes cardBordersAnim-data-v-76a13c11 {\n0% {\n    max-height: 0;\n}\n100% {\n    max-height: 100%;\n}\n}\n.rightSide[data-v-76a13c11] {\n  position: relative;\n  top: 100vh;\n  -webkit-animation: animeRightDesktop-data-v-76a13c11 1s 1.5s 1 forwards;\n          animation: animeRightDesktop-data-v-76a13c11 1s 1.5s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n    top: 100vh;\n}\n100% {\n    top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n    top: 100vh;\n}\n100% {\n    top: 0vh;\n}\n}\n.theContent[data-v-76a13c11] {\n  position: relative;\n  opacity: 0;\n  -webkit-animation: showForm-data-v-76a13c11 0.8s 2.5s 1 forwards;\n          animation: showForm-data-v-76a13c11 0.8s 2.5s 1 forwards;\n}\n@-webkit-keyframes showForm-data-v-76a13c11 {\n0% {\n    bottom: 1rem;\n    opacity: 0;\n}\n100% {\n    bottom: 0;\n    opacity: 1;\n}\n}\n@keyframes showForm-data-v-76a13c11 {\n0% {\n    bottom: 1rem;\n    opacity: 0;\n}\n100% {\n    bottom: 0;\n    opacity: 1;\n}\n}\n", ""]);
+exports.push([module.i, "\n.leftSide[data-v-76a13c11] {\n  position: relative;\n  right: 100%;\n  -webkit-animation: animeleftDesktop-data-v-76a13c11 1s 0s 1 forwards;\n          animation: animeleftDesktop-data-v-76a13c11 1s 0s 1 forwards;\n}\n@-webkit-keyframes animeleftDesktop-data-v-76a13c11 {\n0% {\n    right: 100%;\n    opacity: 0;\n}\n50% {\n    opacity: 0;\n}\n100% {\n    right: 0%;\n    opacity: 1;\n}\n}\n@keyframes animeleftDesktop-data-v-76a13c11 {\n0% {\n    right: 100%;\n    opacity: 0;\n}\n50% {\n    opacity: 0;\n}\n100% {\n    right: 0%;\n    opacity: 1;\n}\n}\n.cardBordersContainer[data-v-76a13c11] {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  opacity: 0;\n\n  -webkit-animation: showCardBordersContainer-data-v-76a13c11 0.5s 1s 1 forwards;\n\n          animation: showCardBordersContainer-data-v-76a13c11 0.5s 1s 1 forwards;\n}\n@-webkit-keyframes showCardBordersContainer-data-v-76a13c11 {\n0% {\n    opacity: 0;\n}\n100% {\n    opacity: 1;\n}\n}\n@keyframes showCardBordersContainer-data-v-76a13c11 {\n0% {\n    opacity: 0;\n}\n100% {\n    opacity: 1;\n}\n}\n.cardBorders[data-v-76a13c11] {\n  max-height: 0;\n  -webkit-animation: cardBordersAnim-data-v-76a13c11 1s 1s 1 forwards;\n          animation: cardBordersAnim-data-v-76a13c11 1s 1s 1 forwards;\n}\n@-webkit-keyframes cardBordersAnim-data-v-76a13c11 {\n0% {\n    max-height: 0;\n}\n100% {\n    max-height: 100%;\n}\n}\n@keyframes cardBordersAnim-data-v-76a13c11 {\n0% {\n    max-height: 0;\n}\n100% {\n    max-height: 100%;\n}\n}\n.rightSide[data-v-76a13c11] {\n  position: relative;\n  top: 100vh;\n  -webkit-animation: animeRightDesktop-data-v-76a13c11 1s 1.5s 1 forwards;\n          animation: animeRightDesktop-data-v-76a13c11 1s 1.5s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n    top: 100vh;\n}\n100% {\n    top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n    top: 100vh;\n}\n100% {\n    top: 0vh;\n}\n}\n.theContent[data-v-76a13c11] {\n  position: relative;\n  opacity: 0;\n  -webkit-animation: showForm-data-v-76a13c11 0.8s 2.5s 1 forwards;\n          animation: showForm-data-v-76a13c11 0.8s 2.5s 1 forwards;\n}\n@-webkit-keyframes showForm-data-v-76a13c11 {\n0% {\n    bottom: 1rem;\n    opacity: 0;\n}\n100% {\n    bottom: 0;\n    opacity: 1;\n}\n}\n@keyframes showForm-data-v-76a13c11 {\n0% {\n    bottom: 1rem;\n    opacity: 0;\n}\n100% {\n    bottom: 0;\n    opacity: 1;\n}\n}\n\n/* Mobile */\n@media (max-width: 768px) {\n.rightSide[data-v-76a13c11] {\n    position: relative;\n    top: 100vh;\n    -webkit-animation: animeRightDesktop-data-v-76a13c11 1s 0s 1 forwards;\n            animation: animeRightDesktop-data-v-76a13c11 1s 0s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n.theContent[data-v-76a13c11] {\n    position: relative;\n    opacity: 0;\n    -webkit-animation: showForm-data-v-76a13c11 0.8s 1s 1 forwards;\n            animation: showForm-data-v-76a13c11 0.8s 1s 1 forwards;\n}\n@-webkit-keyframes showForm-data-v-76a13c11 {\n0% {\n      bottom: 1rem;\n      opacity: 0;\n}\n100% {\n      bottom: 0;\n      opacity: 1;\n}\n}\n@keyframes showForm-data-v-76a13c11 {\n0% {\n      bottom: 1rem;\n      opacity: 0;\n}\n100% {\n      bottom: 0;\n      opacity: 1;\n}\n}\n}\n", ""]);
 
 // exports
 
@@ -38117,8 +38112,6 @@ var render = function() {
             [
               _vm._m(1),
               _vm._v(" "),
-              _vm._m(2),
-              _vm._v(" "),
               _c("div", { staticClass: "theContent shadow-lg formContent" }, [
                 _c("form", { attrs: { action: "/signups", method: "post" } }, [
                   _c("input", {
@@ -38126,7 +38119,7 @@ var render = function() {
                     domProps: { value: _vm.csrf }
                   }),
                   _vm._v(" "),
-                  _vm._m(3)
+                  _vm._m(2)
                 ])
               ]),
               _vm._v(" "),
@@ -38176,18 +38169,6 @@ var staticRenderFns = [
           ])
         ])
       ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "infoCard shadow mobileOnly" }, [
-      _c("h3", [_vm._v("Anime Dating")]),
-      _vm._v(" "),
-      _c("p", [_vm._v("A dating website for true fans of Anime.")]),
-      _vm._v(" "),
-      _c("p", [_vm._v("Launching February 2020")])
     ])
   },
   function() {

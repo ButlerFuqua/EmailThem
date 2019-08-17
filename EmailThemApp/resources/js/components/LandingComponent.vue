@@ -22,11 +22,6 @@
         v-else
         class="d-flex flex-column justify-content-center align-content-center align-items-center"
       >
-        <div class="infoCard shadow mobileOnly">
-          <h3>Anime Dating</h3>
-          <p>A dating website for true fans of Anime.</p>
-          <p>Launching February 2020</p>
-        </div>
         <div class="theContent mb-3">
           <h3 class="display_font">Are you on the list!?</h3>
           <p>Submit your email to be notified of the launch date and to learn more about this project.</p>
@@ -166,6 +161,43 @@ export default {
   100% {
     bottom: 0;
     opacity: 1;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .rightSide {
+    position: relative;
+    top: 100vh;
+    animation: animeRightDesktop 1s 0s 1 forwards;
+  }
+
+  @keyframes animeRightDesktop {
+    0% {
+      opacity: 0;
+      top: 100vh;
+    }
+    100% {
+      opacity: 1;
+      top: 0vh;
+    }
+  }
+
+  .theContent {
+    position: relative;
+    opacity: 0;
+    animation: showForm 0.8s 1s 1 forwards;
+  }
+  @keyframes showForm {
+    0% {
+      bottom: 1rem;
+      opacity: 0;
+    }
+    100% {
+      bottom: 0;
+      opacity: 1;
+    }
   }
 }
 </style>
