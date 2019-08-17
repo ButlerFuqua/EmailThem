@@ -10,7 +10,7 @@ class SignupController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth')->except(['create']);
+        $this->middleware('auth')->except(['create', 'store']);
     }
     /**
      * Display a listing of the resource.
@@ -30,7 +30,8 @@ class SignupController extends Controller
      */
     public function create()
     {
-        return view('signups.create');
+        $sNum = count(Signup::all());
+        return view('signups.create', ['count' => $sNum]);
     }
 
     /**
@@ -54,10 +55,19 @@ class SignupController extends Controller
             \Mail::to($signup->email)->send(
                 new WelcomeEmail($signup)
             );
-            return redirect('/signups');
+
+            $sNum = count(Signup::all());
+
+            session()->flash('message', 'You have successfully been added to the list!');
+
+            return view('/signups/create', ['count' => $sNum]);
         } else {
-            echo 'Sorry, that email is invalid or already taken. <br> <a href="/signups/create">&larr; Back</a>';
-            // return view('signups.create');
+            $sNum = count(Signup::all());
+
+            session()->flash('message', 'Sorry, that email is invalid or has already been submitted.');
+            session()->flash('link', '/');
+
+            return view('/signups/create', ['count' => $sNum]);
         }
     }
 
