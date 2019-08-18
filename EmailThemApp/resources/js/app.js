@@ -24,6 +24,7 @@ Vue.component('header-component', require('./components/HeaderComponent.vue').de
 Vue.component('sidebar-component', require('./components/SidebarComponent.vue').default);
 Vue.component('editor-component', require('./components/EditorComponent.vue').default);
 Vue.component('landing-component', require('./components/LandingComponent.vue').default);
+Vue.component('success-component', require('./components/SuccessComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

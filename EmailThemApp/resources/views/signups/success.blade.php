@@ -3,13 +3,16 @@
 
 @section('body')
 
-
-<div id="app" class="container mt-3">
-   <p>the email has been added</p>
+<div id="app">
+<success-component
+session-message="{{ session('message') }}"
+session-link="{{ session('link') }}"
+></success-component>
 </div>
 
 
 
-
-
 @endsection
+
+
+
