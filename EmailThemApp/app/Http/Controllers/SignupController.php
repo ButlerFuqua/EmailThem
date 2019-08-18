@@ -56,19 +56,27 @@ class SignupController extends Controller
                 new WelcomeEmail($signup)
             );
 
-            $sNum = count(Signup::all());
-
             session()->flash('message', 'You have successfully been added to the list!');
 
-            return view('/signups/create', ['count' => $sNum]);
+            return view('/signups/success');
         } else {
             $sNum = count(Signup::all());
 
             session()->flash('message', 'Sorry, that email is invalid or has already been submitted.');
             session()->flash('link', '/');
 
-            return view('/signups/create', ['count' => $sNum]);
+            return view('/signups/invalid');
         }
+    }
+
+    public function success()
+    {
+        return view('signups.success');
+    }
+
+    public function invalid()
+    {
+        return view('signups.invalid');
     }
 
     /**

@@ -5,7 +5,7 @@
 
 
 <div id="app" class="container mt-3">
-   <p>the email has been added</p>
+   <p>that email is invalid.</p>
 </div>
 
 

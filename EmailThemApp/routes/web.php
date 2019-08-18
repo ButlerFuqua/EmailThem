@@ -27,6 +27,8 @@ Route::get('/emails/archived', 'EmailController@archived');
 
 Route::resource('emails', 'EmailController');
 Route::resource('signups', 'SignupController');
+Route::get('/signups/invalid', 'SignupController@invalid');
+Route::get('/signups/success', 'SignupController@success');
 
 Auth::routes();
 
