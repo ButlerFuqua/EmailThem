@@ -84,20 +84,21 @@ export default {
 .leftSide {
   position: relative;
   right: 100%;
-  animation: animeleftDesktop 1s 0s 1 forwards;
+  animation: animeleftDesktop 2s 0s 1 forwards;
 }
 
 @keyframes animeleftDesktop {
   0% {
-    right: 100%;
     opacity: 0;
+    right: 100%;
   }
   50% {
-    opacity: 0;
+    opacity: 0.7;
+    right: 0%;
   }
   100% {
-    right: 0%;
     opacity: 1;
+    right: 0%;
   }
 }
 
@@ -136,14 +137,20 @@ export default {
 .rightSide {
   position: relative;
   top: 100vh;
-  animation: animeRightDesktop 1s 1.5s 1 forwards;
+  animation: animeRightDesktop 2s 1.5s 1 forwards;
 }
 
 @keyframes animeRightDesktop {
   0% {
+    opacity: 0;
     top: 100vh;
   }
+  50% {
+    opacity: 0.7;
+    top: 0vh;
+  }
   100% {
+    opacity: 1;
     top: 0vh;
   }
 }
