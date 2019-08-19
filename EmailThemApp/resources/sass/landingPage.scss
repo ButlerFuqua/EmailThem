@@ -1,12 +1,12 @@
 
 // Landing Page ====//
 
-.signupContainer.female{
+.signupContainer{
   height: 100vh;
   display: flex;
   overflow: hidden;
 }
-.signupContainer.female .leftSide{
+.signupContainer .leftSide{
    background: url('/images/girl_charcter.svg');
    background-size: cover;
    background-repeat: no-repeat;
@@ -55,7 +55,7 @@
 
 
 
-.signupContainer.female .rightSide{
+.signupContainer .rightSide{
   // background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
   background-image: linear-gradient(to top, #a01eea 0%, #ff55d3 31%, #fa71cd 100%);
   
@@ -69,7 +69,7 @@
 }
 
 
-.signupContainer.female .rightSide .theContent{
+.signupContainer .rightSide .theContent{
   width: 90%;
   padding: 1rem;
   background: $white;
@@ -77,23 +77,23 @@
   position: relative;
   overflow: hidden;
 }
-.signupContainer.female .rightSide .theContent form label{
+.signupContainer .rightSide .theContent form label{
   font-family: $display-font;
   font-size: 2rem;
 }
 
-.signupContainer.female .rightSide .theContent input{
+.signupContainer .rightSide .theContent input{
  border-color: #8a8a8aa3;
 }
-.signupContainer.female .rightSide .theContent input:focus{
+.signupContainer .rightSide .theContent input:focus{
    border-color: #a01eea;
 }
 
-.signupContainer.female .rightSide .theContent .btnContainer{
+.signupContainer .rightSide .theContent .btnContainer{
    margin-top: 1rem;
 }
 
-.signupContainer.female .rightSide .theContent .btnContainer button{
+.signupContainer .rightSide .theContent .btnContainer button{
    color: #a01eea;
    overflow: hidden;
    position: relative;
@@ -104,7 +104,7 @@
    padding: .5rem 1rem;
 }
 
-.signupContainer.female .rightSide .theContent .btnContainer button span{
+.signupContainer .rightSide .theContent .btnContainer button span{
    position: absolute;
    content: '';
    top: 1.75em;
@@ -116,25 +116,25 @@
    transform-origin: 50% 50%;
    transition: all 1s ease, top 1.5s ease;
 }
-.signupContainer.female .rightSide .theContent .btnContainer button span.wave_1 {
+.signupContainer .rightSide .theContent .btnContainer button span.wave_1 {
    background: #ff4242;
    animation: smallwave 3s infinite linear;
  }
- .signupContainer.female .rightSide .theContent .btnContainer button span.wave_2 {
+ .signupContainer .rightSide .theContent .btnContainer button span.wave_2 {
    background: #f35c78;
    animation: smallwave 4s infinite linear;
  }
 
- .signupContainer.female .rightSide .theContent .btnContainer button span.wave_3 {
+ .signupContainer .rightSide .theContent .btnContainer button span.wave_3 {
    background: #dd33ff;
    animation: smallwave 5s infinite linear;
  }
 
-.signupContainer.female .rightSide .theContent .btnContainer button:hover {
+.signupContainer .rightSide .theContent .btnContainer button:hover {
    transition: all 1s ease;
  }
 
- .signupContainer.female .rightSide .theContent .btnContainer button:hover span {
+ .signupContainer .rightSide .theContent .btnContainer button:hover span {
    top: 0.5em;
    transition: all 1s ease, top 1.5s ease;
  }

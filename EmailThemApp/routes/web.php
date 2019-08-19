@@ -22,14 +22,19 @@ Route::get('/login', function () {
 });
 
 Route::post('/emails/{id}/sendemail', 'EmailController@sendEmail');
-
 Route::get('/emails/archived', 'EmailController@archived');
-
 Route::resource('emails', 'EmailController');
+
+
 Route::resource('signups', 'SignupController');
-Route::get('/signups/invalid', 'SignupController@invalid');
-Route::get('/signups/success', 'SignupController@success');
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+// Temp for deving
+// Route::get('/signups/invalid', 'SignupController@invalid');
+// Route::get('/signups/success', 'SignupController@success');

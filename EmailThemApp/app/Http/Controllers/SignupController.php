@@ -10,7 +10,7 @@ class SignupController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth')->except(['create', 'store']);
+        $this->middleware('auth')->except(['create', 'store', 'invalid', 'success']);
     }
     /**
      * Display a listing of the resource.
@@ -57,26 +57,28 @@ class SignupController extends Controller
             );
 
             session()->flash('message', 'You have successfully been added to the list!');
+            session()->flash('link', '/');
 
-            return view('/signups/success');
+            return view('signups.success');
         } else {
-            $sNum = count(Signup::all());
 
             session()->flash('message', 'Sorry, that email is invalid or has already been submitted.');
             session()->flash('link', '/');
 
-            return view('/signups/invalid');
+            return view('signups.invalid');
         }
     }
 
     public function success()
     {
-        return view('signups.success');
+        echo 'Success Route.';
+        // return view('signups.success');
     }
 
     public function invalid()
     {
-        return view('signups.invalid');
+        echo 'Invalid Route.';
+        // return view('signups.invalid');
     }
 
     /**

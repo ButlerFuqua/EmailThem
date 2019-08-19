@@ -1,5 +1,5 @@
 <template>
-  <div class="signupContainer couple">
+  <div class="signupContainer invalid">
     <div class="leftSide">
       <div class="cardBordersContainer">
         <div class="cardBorders">
@@ -16,7 +16,7 @@
       <div class="mobileImgBG"></div>
       <div class="theContent">
         <p>{{ sessionMessage }}</p>
-        <a :href="sessionLink">Back</a>
+        <a :href="sessionLink">Try again</a>
       </div>
     </div>
   </div>

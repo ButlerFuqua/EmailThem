@@ -14,12 +14,8 @@
 
     <div class="rightSide">
       <div class="mobileImgBG"></div>
-      <div class="theContent" v-if="sessionMessage">
-        <p>{{ sessionMessage }}</p>
-        <a v-if="sessionLink" :href="sessionLink">Try again</a>
-      </div>
+
       <div
-        v-else
         class="d-flex flex-column justify-content-center align-content-center align-items-center"
       >
         <div class="theContent mb-3">
