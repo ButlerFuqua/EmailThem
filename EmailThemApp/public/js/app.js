@@ -2037,7 +2037,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {},
+  mounted: function mounted() {
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+    }
+  },
   data: function data() {
     return {
       csrf: document.querySelector('meta[name="csrf-token"]').getAttribute("content")

@@ -7,18 +7,25 @@
   overflow: hidden;
 }
 .signupContainer .leftSide{
-   background: url('/images/girl_charcter.svg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   width: 60%;
-   position: relative;
-   position: relative;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
-   align-items: center;
-   padding-bottom: 2rem;
+  background: url('/images/real_couple.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60%;
+  position: relative;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.signupContainer.female .leftSide{
+  background: url('/images/girl_charcter.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -40,6 +47,7 @@
    padding: 1rem;
    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
    color: #000;
+   opacity: .8;
 }
 
 .display_font{

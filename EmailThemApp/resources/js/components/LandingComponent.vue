@@ -63,7 +63,11 @@
 
 <script>
 export default {
-  mounted() {},
+  mounted() {
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+    }
+  },
   data() {
     return {
       csrf: document
