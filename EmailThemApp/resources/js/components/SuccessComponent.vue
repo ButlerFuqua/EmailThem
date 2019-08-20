@@ -78,7 +78,7 @@ export default {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .mobileImgBG {
     display: block;
     background: url("/images/real_couple.jpg");
@@ -92,7 +92,7 @@ export default {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) {
   .leftSide {
     position: relative;
     right: 100%;

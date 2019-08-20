@@ -49,7 +49,7 @@ export default {
   background-position: center;
 }
 
-@media (max-width: 768) {
+@media (max-width: 500px) {
   .mobileImgBG {
     display: block;
     background: url("/images/invalid_signup.jpg");

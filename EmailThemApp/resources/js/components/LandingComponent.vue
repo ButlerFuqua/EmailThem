@@ -188,7 +188,7 @@ export default {
 
 /* Mobile */
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .rightSide {
     position: relative;
     top: 100vh;
