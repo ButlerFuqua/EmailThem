@@ -10651,7 +10651,7 @@ a.text-dark:focus {
 }
 
 .signupContainer .leftSide {
-  background: url("/images/real_couple.jpg");
+  background: url("/images/standard_landing.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -10663,13 +10663,6 @@ a.text-dark:focus {
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 2rem;
-}
-
-.signupContainer.female .leftSide {
-  background: url("/images/girl_charcter.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .leftSide .cardBorders {
@@ -10921,7 +10914,7 @@ main {
 
   .mobileImgBG {
     display: block;
-    background: url("/images/girl_charcter.svg");
+    background: url("/images/standard_landing.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 .signupContainer .leftSide{
-  background: url('/images/real_couple.jpg');
+  background: url('/images/standard_landing.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,12 +21,9 @@
   padding-bottom: 2rem;
 }
 
-.signupContainer.female .leftSide{
-  background: url('/images/girl_charcter.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
+
+
 
 
 .leftSide .cardBorders{

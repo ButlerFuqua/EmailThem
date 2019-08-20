@@ -81,6 +81,13 @@ export default {
 
 
 <style scoped>
+.signupContainer.female .leftSide {
+  background: url("/images/standard_landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .leftSide {
   position: relative;
   right: 100%;
@@ -120,24 +127,10 @@ export default {
   }
 }
 
-.cardBorders {
-  max-height: 0;
-  animation: cardBordersAnim 1s 1s 1 forwards;
-}
-
-@keyframes cardBordersAnim {
-  0% {
-    max-height: 0;
-  }
-  100% {
-    max-height: 100%;
-  }
-}
-
 .rightSide {
   position: relative;
   top: 100vh;
-  animation: animeRightDesktop 2s 1.5s 1 forwards;
+  animation: animeRightDesktop 2s 1s 1 forwards;
 }
 
 @keyframes animeRightDesktop {
@@ -152,6 +145,28 @@ export default {
   100% {
     opacity: 1;
     top: 0vh;
+  }
+}
+
+.cardBorders {
+  max-height: 0;
+  border-top: transparent;
+  border-bottom: transparent;
+  animation: cardBordersAnim 1s 1.5s 1 forwards;
+}
+
+@keyframes cardBordersAnim {
+  0% {
+    max-height: 0;
+  }
+  15% {
+    border-top: 3px solid #1e1e1e;
+    border-bottom: 3px solid #1e1e1e;
+  }
+  100% {
+    max-height: 100%;
+    border-top: 3px solid #1e1e1e;
+    border-bottom: 3px solid #1e1e1e;
   }
 }
 
