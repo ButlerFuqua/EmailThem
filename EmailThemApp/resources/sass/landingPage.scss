@@ -36,27 +36,13 @@
    max-height: 100%;
 }
 
-.leftSide .infoCard{
-   text-align: center;
-   position: relative;
-   width: 22rem;
-   max-width: 90%;
-   padding: 1rem;
-   background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
-   color: #000;
-   opacity: .8;
-}
+
 
 .display_font{
    font-family: $display-font;
 }
 
-.leftSide .infoCard h3{
-   font-family: $display-font;
-   font-size: 4rem;
-   position: relative;
-   transform: rotate(-6deg);
-}
+
 
 
 

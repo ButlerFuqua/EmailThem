@@ -1,15 +1,7 @@
 <template>
   <div class="signupContainer female">
     <div class="leftSide">
-      <div class="cardBordersContainer">
-        <div class="cardBorders">
-          <div class="infoCard shadow">
-            <h3>Anime Dating</h3>
-            <p>Find someone like you.</p>
-            <p>Launching February 2020</p>
-          </div>
-        </div>
-      </div>
+      <info-component doAnimate="true"></info-component>
     </div>
 
     <div class="rightSide">
@@ -109,24 +101,6 @@ export default {
   }
 }
 
-.cardBordersContainer {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  opacity: 0;
-
-  animation: showCardBordersContainer 0.5s 1s 1 forwards;
-}
-
-@keyframes showCardBordersContainer {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .rightSide {
   position: relative;
   top: 100vh;
@@ -145,28 +119,6 @@ export default {
   100% {
     opacity: 1;
     top: 0vh;
-  }
-}
-
-.cardBorders {
-  max-height: 0;
-  border-top: transparent;
-  border-bottom: transparent;
-  animation: cardBordersAnim 1s 1.5s 1 forwards;
-}
-
-@keyframes cardBordersAnim {
-  0% {
-    max-height: 0;
-  }
-  15% {
-    border-top: 3px solid #1e1e1e;
-    border-bottom: 3px solid #1e1e1e;
-  }
-  100% {
-    max-height: 100%;
-    border-top: 3px solid #1e1e1e;
-    border-bottom: 3px solid #1e1e1e;
   }
 }
 

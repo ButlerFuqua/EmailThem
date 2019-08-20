@@ -1,6 +1,8 @@
 <template>
   <div class="signupContainer success">
-    <div class="leftSide"></div>
+    <div class="leftSide">
+      <info-component></info-component>
+    </div>
 
     <div class="rightSide">
       <div class="mobileImgBG"></div>

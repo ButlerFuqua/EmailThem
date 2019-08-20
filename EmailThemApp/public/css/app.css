@@ -10675,26 +10675,8 @@ a.text-dark:focus {
   max-height: 100%;
 }
 
-.leftSide .infoCard {
-  text-align: center;
-  position: relative;
-  width: 22rem;
-  max-width: 90%;
-  padding: 1rem;
-  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
-  color: #000;
-  opacity: 0.8;
-}
-
 .display_font {
   font-family: "Ma Shan Zheng", cursive;
-}
-
-.leftSide .infoCard h3 {
-  font-family: "Ma Shan Zheng", cursive;
-  font-size: 4rem;
-  position: relative;
-  transform: rotate(-6deg);
 }
 
 .signupContainer .rightSide {
@@ -10892,7 +10874,8 @@ main {
   }
 
   .signupContainer .leftSide {
-    display: none !important;
+    width: 0;
+    overflow: hidden;
   }
 
   .signupContainer .rightSide .infoCard {

@@ -1,15 +1,7 @@
 <template>
   <div class="signupContainer invalid">
     <div class="leftSide">
-      <div class="cardBordersContainer">
-        <div class="cardBorders">
-          <div class="infoCard shadow">
-            <h3>Anime Dating</h3>
-            <p>Find someone like you.</p>
-            <p>Launching February 2020</p>
-          </div>
-        </div>
-      </div>
+      <info-component></info-component>
     </div>
 
     <div class="rightSide">

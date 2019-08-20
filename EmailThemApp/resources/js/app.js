@@ -26,6 +26,7 @@ Vue.component('editor-component', require('./components/EditorComponent.vue').de
 Vue.component('landing-component', require('./components/LandingComponent.vue').default);
 Vue.component('success-component', require('./components/SuccessComponent.vue').default);
 Vue.component('invalid-component', require('./components/InvalidComponent.vue').default);
+Vue.component('info-component', require('./components/InfoComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

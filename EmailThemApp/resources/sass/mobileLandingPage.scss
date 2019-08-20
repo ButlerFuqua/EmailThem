@@ -4,7 +4,8 @@
     }
     
     .signupContainer .leftSide{
-        display: none !important;
+        width: 0;
+        overflow: hidden;
     }
 
     .signupContainer .rightSide .infoCard{
