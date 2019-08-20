@@ -38296,7 +38296,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "infoCard shadow" }, [
             _c("h3", [_vm._v("Anime Dating")]),
             _vm._v(" "),
-            _c("p", [_vm._v("A dating website for true fans of Anime.")]),
+            _c("p", [_vm._v("Find someone like you.")]),
             _vm._v(" "),
             _c("p", [_vm._v("Launching February 2020")])
           ])
@@ -38390,7 +38390,7 @@ var staticRenderFns = [
           _c("div", { staticClass: "infoCard shadow" }, [
             _c("h3", [_vm._v("Anime Dating")]),
             _vm._v(" "),
-            _c("p", [_vm._v("A dating website for true fans of Anime.")]),
+            _c("p", [_vm._v("Find someone like you.")]),
             _vm._v(" "),
             _c("p", [_vm._v("Launching February 2020")])
           ])

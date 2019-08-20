@@ -5,7 +5,7 @@
         <div class="cardBorders">
           <div class="infoCard shadow">
             <h3>Anime Dating</h3>
-            <p>A dating website for true fans of Anime.</p>
+            <p>Find someone like you.</p>
             <p>Launching February 2020</p>
           </div>
         </div>
