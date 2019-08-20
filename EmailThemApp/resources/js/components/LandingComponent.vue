@@ -10,6 +10,9 @@
       <div
         class="d-flex flex-column justify-content-center align-content-center align-items-center"
       >
+        <div class="mobileOnly heading">
+          <h1 class="display_font">Anime Dating</h1>
+        </div>
         <div class="theContent mb-3">
           <h3 class="display_font">Are you on the list!?</h3>
           <p>Submit your email to be notified of the launch date and to learn more about this project.</p>
@@ -161,7 +164,7 @@ export default {
   .theContent {
     position: relative;
     opacity: 0;
-    animation: showForm 0.8s 1s 1 forwards;
+    animation: showForm 0.8s 1.5s 1 forwards;
   }
   @keyframes showForm {
     0% {
@@ -170,6 +173,19 @@ export default {
     }
     100% {
       bottom: 0;
+      opacity: 1;
+    }
+  }
+
+  .mobileOnly.heading {
+    opacity: 0;
+    animation: mobileHeading 0.8s 1s 1 forwards;
+  }
+  @keyframes mobileHeading {
+    0% {
+      opacity: 0;
+    }
+    100% {
       opacity: 1;
     }
   }

@@ -10873,6 +10873,15 @@ main {
     display: block;
   }
 
+  .mobileOnly.heading {
+    z-index: 99;
+    top: 1rem;
+  }
+
+  .mobileOnly.heading h1 {
+    font-size: 3.2rem;
+  }
+
   .signupContainer .leftSide {
     width: 0;
     overflow: hidden;
