@@ -49,15 +49,17 @@ export default {
   background-position: center;
 }
 
-.mobileImgBG {
-  display: block;
-  background: url("/images/invalid_signup.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
+@media (max-width: 768) {
+  .mobileImgBG {
+    display: block;
+    background: url("/images/invalid_signup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
 }
 </style>

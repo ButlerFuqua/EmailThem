@@ -47,7 +47,7 @@
             </div>
           </form>
         </div>
-        <div v-if="count.length >= 1" class="d-flex align-items-center theContent mt-3">
+        <div v-if="count >= 1" class="d-flex align-items-center theContent mt-3">
           <p class="mb-0">
             <strong style="font-size: 2.5rem;" class="display_font mr-1">{{ count }}</strong>
           </p>

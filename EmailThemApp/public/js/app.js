@@ -6584,7 +6584,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.signupContainer.invalid .leftSide[data-v-bc715f9e] {\n  background: url(\"/images/invalid_signup.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.mobileImgBG[data-v-bc715f9e] {\n  display: block;\n  background: url(\"/images/invalid_signup.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  opacity: 0.5;\n}\n", ""]);
+exports.push([module.i, "\n.signupContainer.invalid .leftSide[data-v-bc715f9e] {\n  background: url(\"/images/invalid_signup.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n@media (max-width: 768) {\n.mobileImgBG[data-v-bc715f9e] {\n    display: block;\n    background: url(\"/images/invalid_signup.jpg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5;\n}\n}\n", ""]);
 
 // exports
 
@@ -38352,7 +38352,7 @@ var render = function() {
             ])
           ]),
           _vm._v(" "),
-          _vm.count.length >= 1
+          _vm.count >= 1
             ? _c(
                 "div",
                 { staticClass: "d-flex align-items-center theContent mt-3" },
