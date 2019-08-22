@@ -1,5 +1,5 @@
 <template>
-  <div class="signupContainer female">
+  <div class="signupContainer" :class="imageClass">
     <div class="leftSide">
       <info-component doAnimate="true"></info-component>
     </div>
@@ -58,16 +58,26 @@
 
 <script>
 export default {
-  mounted() {
-    function getRandomInt(max) {
+  methods: {
+    getRandomInt(max) {
       return Math.floor(Math.random() * Math.floor(max));
     }
+  },
+  mounted() {
+    if (this.getRandomInt(10) < 5) {
+      this.imageClass = "couple";
+    } else {
+      this.imageClass = "female";
+    }
+
+    console.log(this.imageClass);
   },
   data() {
     return {
       csrf: document
         .querySelector('meta[name="csrf-token"]')
-        .getAttribute("content")
+        .getAttribute("content"),
+      imageClass: ""
     };
   },
   props: ["sessionMessage", "sessionLink", "count"]
@@ -78,6 +88,13 @@ export default {
 <style scoped>
 .signupContainer.female .leftSide {
   background: url("/images/standard_landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.signupContainer.couple .leftSide {
+  background: url("/images/real_couple.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -188,6 +205,28 @@ export default {
     100% {
       opacity: 1;
     }
+  }
+
+  .mobileImgBG {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
+
+    .female .mobileImgBG {
+    background: url("/images/standard_landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+    .couple .mobileImgBG {
+    background: url("/images/real_couple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
 </style>
