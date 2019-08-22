@@ -14,7 +14,7 @@
 
 <div class="card">
     <div class="card-body">
-        {{ $email->body }}
+        {!! $email->body !!}
     </div>
 </div>
 <br>

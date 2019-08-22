@@ -3,7 +3,7 @@
 
 email: {{ $signup->email }}
 
-The body of your message.
+{!! $email->body !!}
 
 @component('mail::button', ['url' => ''])
 Button Text
