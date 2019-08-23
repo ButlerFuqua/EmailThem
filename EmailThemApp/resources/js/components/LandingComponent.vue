@@ -58,26 +58,14 @@
 
 <script>
 export default {
-  methods: {
-    getRandomInt(max) {
-      return Math.floor(Math.random() * Math.floor(max));
-    }
-  },
-  mounted() {
-    if (this.getRandomInt(10) < 5) {
-      this.imageClass = "couple";
-    } else {
-      this.imageClass = "female";
-    }
-
-    console.log(this.imageClass);
-  },
+  methods: {},
+  mounted() {},
   data() {
     return {
       csrf: document
         .querySelector('meta[name="csrf-token"]')
         .getAttribute("content"),
-      imageClass: ""
+      imageClass: "couple"
     };
   },
   props: ["sessionMessage", "sessionLink", "count"]
@@ -215,14 +203,14 @@ export default {
     opacity: 0.5;
   }
 
-    .female .mobileImgBG {
+  .female .mobileImgBG {
     background: url("/images/standard_landing.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
 
-    .couple .mobileImgBG {
+  .couple .mobileImgBG {
     background: url("/images/real_couple.jpg");
     background-size: cover;
     background-repeat: no-repeat;

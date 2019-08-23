@@ -3,7 +3,7 @@
 
 email: {{ $signup->email }}
 
-{!! $email->body !!}
+Welcome to the <strong>Anime Dating</strong> List!
 
 @component('mail::button', ['url' => ''])
 Button Text

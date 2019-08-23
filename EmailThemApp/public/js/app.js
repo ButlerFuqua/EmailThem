@@ -2057,24 +2057,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  methods: {
-    getRandomInt: function getRandomInt(max) {
-      return Math.floor(Math.random() * Math.floor(max));
-    }
-  },
-  mounted: function mounted() {
-    if (this.getRandomInt(10) < 5) {
-      this.imageClass = "couple";
-    } else {
-      this.imageClass = "female";
-    }
-
-    console.log(this.imageClass);
-  },
+  methods: {},
+  mounted: function mounted() {},
   data: function data() {
     return {
       csrf: document.querySelector('meta[name="csrf-token"]').getAttribute("content"),
-      imageClass: ""
+      imageClass: "couple"
     };
   },
   props: ["sessionMessage", "sessionLink", "count"]
@@ -6673,7 +6661,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.signupContainer.success .leftSide[data-v-285394b6] {\n  background: url(\"/images/real_couple.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.rightSide[data-v-285394b6] {\n  position: relative;\n  top: 100vh;\n  -webkit-animation: animeRightDesktop-data-v-285394b6 2s 0s 1 forwards;\n          animation: animeRightDesktop-data-v-285394b6 2s 0s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n.rightSide .theContent[data-v-285394b6] {\n  position: relative;\n  opacity: 0;\n  bottom: 1rem;\n  -webkit-animation: animeRightContent-data-v-285394b6 1s 1.2s 1 forwards;\n          animation: animeRightContent-data-v-285394b6 1s 1.2s 1 forwards;\n}\n@-webkit-keyframes animeRightContent-data-v-285394b6 {\n0% {\n    opacity: 0;\n    bottom: 1rem;\n}\n100% {\n    opacity: 1;\n    bottom: 0;\n}\n}\n@keyframes animeRightContent-data-v-285394b6 {\n0% {\n    opacity: 0;\n    bottom: 1rem;\n}\n100% {\n    opacity: 1;\n    bottom: 0;\n}\n}\n@media (max-width: 500px) {\n.mobileImgBG[data-v-285394b6] {\n    display: block;\n    background: url(\"/images/real_couple.jpg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5;\n}\n}\n@media (min-width: 500px) {\n.leftSide[data-v-285394b6] {\n    position: relative;\n    right: 100%;\n    -webkit-animation: animeleftDesktop-data-v-285394b6 2s 0s 1 forwards;\n            animation: animeleftDesktop-data-v-285394b6 2s 0s 1 forwards;\n}\n@-webkit-keyframes animeleftDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      right: 100%;\n}\n50% {\n      opacity: 0.7;\n      right: 0%;\n}\n100% {\n      opacity: 1;\n      right: 0%;\n}\n}\n@keyframes animeleftDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      right: 100%;\n}\n50% {\n      opacity: 0.7;\n      right: 0%;\n}\n100% {\n      opacity: 1;\n      right: 0%;\n}\n}\n.rightSide[data-v-285394b6] {\n    position: relative;\n    top: 100vh;\n    -webkit-animation: animeRightDesktop-data-v-285394b6 2s 1s 1 forwards;\n            animation: animeRightDesktop-data-v-285394b6 2s 1s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n50% {\n      opacity: 0.7;\n      top: 0vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n50% {\n      opacity: 0.7;\n      top: 0vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n}\n", ""]);
+exports.push([module.i, "\n.signupContainer.success .leftSide[data-v-285394b6] {\n  background: url(\"/images/standard_landing.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.rightSide[data-v-285394b6] {\n  position: relative;\n  top: 100vh;\n  -webkit-animation: animeRightDesktop-data-v-285394b6 2s 0s 1 forwards;\n          animation: animeRightDesktop-data-v-285394b6 2s 0s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n.rightSide .theContent[data-v-285394b6] {\n  position: relative;\n  opacity: 0;\n  bottom: 1rem;\n  -webkit-animation: animeRightContent-data-v-285394b6 1s 1.2s 1 forwards;\n          animation: animeRightContent-data-v-285394b6 1s 1.2s 1 forwards;\n}\n@-webkit-keyframes animeRightContent-data-v-285394b6 {\n0% {\n    opacity: 0;\n    bottom: 1rem;\n}\n100% {\n    opacity: 1;\n    bottom: 0;\n}\n}\n@keyframes animeRightContent-data-v-285394b6 {\n0% {\n    opacity: 0;\n    bottom: 1rem;\n}\n100% {\n    opacity: 1;\n    bottom: 0;\n}\n}\n@media (max-width: 500px) {\n.mobileImgBG[data-v-285394b6] {\n    display: block;\n    background: url(\"/images/standard_landing.jpg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5;\n}\n}\n@media (min-width: 500px) {\n.leftSide[data-v-285394b6] {\n    position: relative;\n    right: 100%;\n    -webkit-animation: animeleftDesktop-data-v-285394b6 2s 0s 1 forwards;\n            animation: animeleftDesktop-data-v-285394b6 2s 0s 1 forwards;\n}\n@-webkit-keyframes animeleftDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      right: 100%;\n}\n50% {\n      opacity: 0.7;\n      right: 0%;\n}\n100% {\n      opacity: 1;\n      right: 0%;\n}\n}\n@keyframes animeleftDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      right: 100%;\n}\n50% {\n      opacity: 0.7;\n      right: 0%;\n}\n100% {\n      opacity: 1;\n      right: 0%;\n}\n}\n.rightSide[data-v-285394b6] {\n    position: relative;\n    top: 100vh;\n    -webkit-animation: animeRightDesktop-data-v-285394b6 2s 1s 1 forwards;\n            animation: animeRightDesktop-data-v-285394b6 2s 1s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n50% {\n      opacity: 0.7;\n      top: 0vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n50% {\n      opacity: 0.7;\n      top: 0vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n}\n", ""]);
 
 // exports
 
