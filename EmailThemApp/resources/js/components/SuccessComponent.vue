@@ -35,7 +35,7 @@ export default {
 
 <style scoped>
 .signupContainer.success .leftSide {
-  background: url("/images/standard_landing.jpg");
+  background: url("/images/success_page_img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -83,7 +83,7 @@ export default {
 @media (max-width: 500px) {
   .mobileImgBG {
     display: block;
-    background: url("/images/standard_landing.jpg");
+    background: url("/images/success_page_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

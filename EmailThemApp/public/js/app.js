@@ -1853,39 +1853,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/HeaderComponent.vue?vue&type=script&lang=js&":
 /*!**************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/HeaderComponent.vue?vue&type=script&lang=js& ***!
@@ -6604,7 +6571,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.infoCard[data-v-44efc814] {\n  text-align: center;\n  position: relative;\n  width: 22rem;\n  max-width: 90%;\n  padding: 1rem;\n  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);\n  color: #000;\n  opacity: 0.8;\n}\n.infoCard span[data-v-44efc814] {\n  background: white;\n  padding: 3px 6px;\n  border-radius: 3px;\n  font-weight: bold;\n}\n.infoCard h3[data-v-44efc814] {\n  font-family: \"Ma Shan Zheng\", cursive;\n  font-size: 4rem;\n  position: relative;\n  transform: rotate(-6deg);\n}\n.cardBordersContainer.animate[data-v-44efc814] {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  opacity: 0;\n\n  -webkit-animation: showCardBordersContainer-data-v-44efc814 0.5s 1s 1 forwards;\n\n          animation: showCardBordersContainer-data-v-44efc814 0.5s 1s 1 forwards;\n}\n@-webkit-keyframes showCardBordersContainer-data-v-44efc814 {\n0% {\n    opacity: 0;\n}\n100% {\n    opacity: 1;\n}\n}\n@keyframes showCardBordersContainer-data-v-44efc814 {\n0% {\n    opacity: 0;\n}\n100% {\n    opacity: 1;\n}\n}\n.cardBorders.animate[data-v-44efc814] {\n  max-height: 0;\n  border-top: transparent;\n  border-bottom: transparent;\n  -webkit-animation: cardBordersAnim-data-v-44efc814 1s 1.5s 1 forwards;\n          animation: cardBordersAnim-data-v-44efc814 1s 1.5s 1 forwards;\n}\n@-webkit-keyframes cardBordersAnim-data-v-44efc814 {\n0% {\n    max-height: 0;\n}\n15% {\n    border-top: 3px solid #1e1e1e;\n    border-bottom: 3px solid #1e1e1e;\n}\n100% {\n    max-height: 100%;\n    border-top: 3px solid #1e1e1e;\n    border-bottom: 3px solid #1e1e1e;\n}\n}\n@keyframes cardBordersAnim-data-v-44efc814 {\n0% {\n    max-height: 0;\n}\n15% {\n    border-top: 3px solid #1e1e1e;\n    border-bottom: 3px solid #1e1e1e;\n}\n100% {\n    max-height: 100%;\n    border-top: 3px solid #1e1e1e;\n    border-bottom: 3px solid #1e1e1e;\n}\n}\n", ""]);
+exports.push([module.i, "\n.infoCard[data-v-44efc814] {\n  text-align: center;\n  position: relative;\n  width: 22rem;\n  max-width: 90%;\n  padding: 1rem;\n  background-image: radial-gradient(\n    circle 248px at center,\n    #16d9e3 0%,\n    #30c7ec 47%,\n    #46aef7 100%\n  );\n  color: #000;\n  opacity: 0.8;\n}\n.infoCard span[data-v-44efc814] {\n  background: white;\n  padding: 3px 6px;\n  border-radius: 3px;\n  font-weight: bold;\n}\n.infoCard h3[data-v-44efc814] {\n  font-family: \"Ma Shan Zheng\", cursive;\n  font-size: 4rem;\n  position: relative;\n  transform: rotate(-6deg);\n}\n.cardBordersContainer.animate[data-v-44efc814] {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  opacity: 0;\n\n  -webkit-animation: showCardBordersContainer-data-v-44efc814 0.5s 1s 1 forwards;\n\n          animation: showCardBordersContainer-data-v-44efc814 0.5s 1s 1 forwards;\n}\n@-webkit-keyframes showCardBordersContainer-data-v-44efc814 {\n0% {\n    opacity: 0;\n}\n100% {\n    opacity: 1;\n}\n}\n@keyframes showCardBordersContainer-data-v-44efc814 {\n0% {\n    opacity: 0;\n}\n100% {\n    opacity: 1;\n}\n}\n.cardBorders.animate[data-v-44efc814] {\n  max-height: 0;\n  border-top: transparent;\n  border-bottom: transparent;\n  -webkit-animation: cardBordersAnim-data-v-44efc814 1s 1.5s 1 forwards;\n          animation: cardBordersAnim-data-v-44efc814 1s 1.5s 1 forwards;\n}\n@-webkit-keyframes cardBordersAnim-data-v-44efc814 {\n0% {\n    max-height: 0;\n}\n15% {\n    border-top: 3px solid #1e1e1e;\n    border-bottom: 3px solid #1e1e1e;\n}\n100% {\n    max-height: 100%;\n    border-top: 3px solid #1e1e1e;\n    border-bottom: 3px solid #1e1e1e;\n}\n}\n@keyframes cardBordersAnim-data-v-44efc814 {\n0% {\n    max-height: 0;\n}\n15% {\n    border-top: 3px solid #1e1e1e;\n    border-bottom: 3px solid #1e1e1e;\n}\n100% {\n    max-height: 100%;\n    border-top: 3px solid #1e1e1e;\n    border-bottom: 3px solid #1e1e1e;\n}\n}\n", ""]);
 
 // exports
 
@@ -6642,7 +6609,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.signupContainer.female .leftSide[data-v-76a13c11] {\n  background: url(\"/images/standard_landing.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.signupContainer.couple .leftSide[data-v-76a13c11] {\n  background: url(\"/images/real_couple.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.leftSide[data-v-76a13c11] {\n  position: relative;\n  right: 100%;\n  -webkit-animation: animeleftDesktop-data-v-76a13c11 2s 0s 1 forwards;\n          animation: animeleftDesktop-data-v-76a13c11 2s 0s 1 forwards;\n}\n@-webkit-keyframes animeleftDesktop-data-v-76a13c11 {\n0% {\n    opacity: 0;\n    right: 100%;\n}\n50% {\n    opacity: 0.7;\n    right: 0%;\n}\n100% {\n    opacity: 1;\n    right: 0%;\n}\n}\n@keyframes animeleftDesktop-data-v-76a13c11 {\n0% {\n    opacity: 0;\n    right: 100%;\n}\n50% {\n    opacity: 0.7;\n    right: 0%;\n}\n100% {\n    opacity: 1;\n    right: 0%;\n}\n}\n.rightSide[data-v-76a13c11] {\n  position: relative;\n  top: 100vh;\n  -webkit-animation: animeRightDesktop-data-v-76a13c11 2s 1s 1 forwards;\n          animation: animeRightDesktop-data-v-76a13c11 2s 1s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n.theContent[data-v-76a13c11] {\n  position: relative;\n  opacity: 0;\n  -webkit-animation: showForm-data-v-76a13c11 0.8s 2.5s 1 forwards;\n          animation: showForm-data-v-76a13c11 0.8s 2.5s 1 forwards;\n}\n@-webkit-keyframes showForm-data-v-76a13c11 {\n0% {\n    bottom: 1rem;\n    opacity: 0;\n}\n100% {\n    bottom: 0;\n    opacity: 1;\n}\n}\n@keyframes showForm-data-v-76a13c11 {\n0% {\n    bottom: 1rem;\n    opacity: 0;\n}\n100% {\n    bottom: 0;\n    opacity: 1;\n}\n}\n\n/* Mobile */\n@media (max-width: 500px) {\n.rightSide[data-v-76a13c11] {\n    position: relative;\n    top: 100vh;\n    -webkit-animation: animeRightDesktop-data-v-76a13c11 1s 0s 1 forwards;\n            animation: animeRightDesktop-data-v-76a13c11 1s 0s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n.theContent[data-v-76a13c11] {\n    position: relative;\n    opacity: 0;\n    -webkit-animation: showForm-data-v-76a13c11 0.8s 1.5s 1 forwards;\n            animation: showForm-data-v-76a13c11 0.8s 1.5s 1 forwards;\n}\n@-webkit-keyframes showForm-data-v-76a13c11 {\n0% {\n      bottom: 1rem;\n      opacity: 0;\n}\n100% {\n      bottom: 0;\n      opacity: 1;\n}\n}\n@keyframes showForm-data-v-76a13c11 {\n0% {\n      bottom: 1rem;\n      opacity: 0;\n}\n100% {\n      bottom: 0;\n      opacity: 1;\n}\n}\n.mobileOnly.heading[data-v-76a13c11] {\n    opacity: 0;\n    -webkit-animation: mobileHeading-data-v-76a13c11 0.8s 1s 1 forwards;\n            animation: mobileHeading-data-v-76a13c11 0.8s 1s 1 forwards;\n}\n@-webkit-keyframes mobileHeading-data-v-76a13c11 {\n0% {\n      opacity: 0;\n}\n100% {\n      opacity: 1;\n}\n}\n@keyframes mobileHeading-data-v-76a13c11 {\n0% {\n      opacity: 0;\n}\n100% {\n      opacity: 1;\n}\n}\n.mobileImgBG[data-v-76a13c11] {\n    display: block;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5;\n}\n.female .mobileImgBG[data-v-76a13c11] {\n    background: url(\"/images/standard_landing.jpg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n}\n.couple .mobileImgBG[data-v-76a13c11] {\n    background: url(\"/images/real_couple.jpg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n}\n}\n", ""]);
+exports.push([module.i, "\n.signupContainer.female .leftSide[data-v-76a13c11] {\n  background: url(\"/images/success_page_img.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.signupContainer.couple .leftSide[data-v-76a13c11] {\n  background: url(\"/images/standard_landing.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.leftSide[data-v-76a13c11] {\n  position: relative;\n  right: 100%;\n  -webkit-animation: animeleftDesktop-data-v-76a13c11 2s 0s 1 forwards;\n          animation: animeleftDesktop-data-v-76a13c11 2s 0s 1 forwards;\n}\n@-webkit-keyframes animeleftDesktop-data-v-76a13c11 {\n0% {\n    opacity: 0;\n    right: 100%;\n}\n50% {\n    opacity: 0.7;\n    right: 0%;\n}\n100% {\n    opacity: 1;\n    right: 0%;\n}\n}\n@keyframes animeleftDesktop-data-v-76a13c11 {\n0% {\n    opacity: 0;\n    right: 100%;\n}\n50% {\n    opacity: 0.7;\n    right: 0%;\n}\n100% {\n    opacity: 1;\n    right: 0%;\n}\n}\n.rightSide[data-v-76a13c11] {\n  position: relative;\n  top: 100vh;\n  -webkit-animation: animeRightDesktop-data-v-76a13c11 2s 1s 1 forwards;\n          animation: animeRightDesktop-data-v-76a13c11 2s 1s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n.theContent[data-v-76a13c11] {\n  position: relative;\n  opacity: 0;\n  -webkit-animation: showForm-data-v-76a13c11 0.8s 2.5s 1 forwards;\n          animation: showForm-data-v-76a13c11 0.8s 2.5s 1 forwards;\n}\n@-webkit-keyframes showForm-data-v-76a13c11 {\n0% {\n    bottom: 1rem;\n    opacity: 0;\n}\n100% {\n    bottom: 0;\n    opacity: 1;\n}\n}\n@keyframes showForm-data-v-76a13c11 {\n0% {\n    bottom: 1rem;\n    opacity: 0;\n}\n100% {\n    bottom: 0;\n    opacity: 1;\n}\n}\n\n/* Mobile */\n@media (max-width: 500px) {\n.rightSide[data-v-76a13c11] {\n    position: relative;\n    top: 100vh;\n    -webkit-animation: animeRightDesktop-data-v-76a13c11 1s 0s 1 forwards;\n            animation: animeRightDesktop-data-v-76a13c11 1s 0s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-76a13c11 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n.theContent[data-v-76a13c11] {\n    position: relative;\n    opacity: 0;\n    -webkit-animation: showForm-data-v-76a13c11 0.8s 1.5s 1 forwards;\n            animation: showForm-data-v-76a13c11 0.8s 1.5s 1 forwards;\n}\n@-webkit-keyframes showForm-data-v-76a13c11 {\n0% {\n      bottom: 1rem;\n      opacity: 0;\n}\n100% {\n      bottom: 0;\n      opacity: 1;\n}\n}\n@keyframes showForm-data-v-76a13c11 {\n0% {\n      bottom: 1rem;\n      opacity: 0;\n}\n100% {\n      bottom: 0;\n      opacity: 1;\n}\n}\n.mobileOnly.heading[data-v-76a13c11] {\n    opacity: 0;\n    -webkit-animation: mobileHeading-data-v-76a13c11 0.8s 1s 1 forwards;\n            animation: mobileHeading-data-v-76a13c11 0.8s 1s 1 forwards;\n}\n@-webkit-keyframes mobileHeading-data-v-76a13c11 {\n0% {\n      opacity: 0;\n}\n100% {\n      opacity: 1;\n}\n}\n@keyframes mobileHeading-data-v-76a13c11 {\n0% {\n      opacity: 0;\n}\n100% {\n      opacity: 1;\n}\n}\n.mobileImgBG[data-v-76a13c11] {\n    display: block;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5;\n}\n.female .mobileImgBG[data-v-76a13c11] {\n    background: url(\"/images/success_page_img.jpg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n}\n.couple .mobileImgBG[data-v-76a13c11] {\n    background: url(\"/images/standard_landing.jpg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n}\n}\n", ""]);
 
 // exports
 
@@ -6661,7 +6628,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.signupContainer.success .leftSide[data-v-285394b6] {\n  background: url(\"/images/standard_landing.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.rightSide[data-v-285394b6] {\n  position: relative;\n  top: 100vh;\n  -webkit-animation: animeRightDesktop-data-v-285394b6 2s 0s 1 forwards;\n          animation: animeRightDesktop-data-v-285394b6 2s 0s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n.rightSide .theContent[data-v-285394b6] {\n  position: relative;\n  opacity: 0;\n  bottom: 1rem;\n  -webkit-animation: animeRightContent-data-v-285394b6 1s 1.2s 1 forwards;\n          animation: animeRightContent-data-v-285394b6 1s 1.2s 1 forwards;\n}\n@-webkit-keyframes animeRightContent-data-v-285394b6 {\n0% {\n    opacity: 0;\n    bottom: 1rem;\n}\n100% {\n    opacity: 1;\n    bottom: 0;\n}\n}\n@keyframes animeRightContent-data-v-285394b6 {\n0% {\n    opacity: 0;\n    bottom: 1rem;\n}\n100% {\n    opacity: 1;\n    bottom: 0;\n}\n}\n@media (max-width: 500px) {\n.mobileImgBG[data-v-285394b6] {\n    display: block;\n    background: url(\"/images/standard_landing.jpg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5;\n}\n}\n@media (min-width: 500px) {\n.leftSide[data-v-285394b6] {\n    position: relative;\n    right: 100%;\n    -webkit-animation: animeleftDesktop-data-v-285394b6 2s 0s 1 forwards;\n            animation: animeleftDesktop-data-v-285394b6 2s 0s 1 forwards;\n}\n@-webkit-keyframes animeleftDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      right: 100%;\n}\n50% {\n      opacity: 0.7;\n      right: 0%;\n}\n100% {\n      opacity: 1;\n      right: 0%;\n}\n}\n@keyframes animeleftDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      right: 100%;\n}\n50% {\n      opacity: 0.7;\n      right: 0%;\n}\n100% {\n      opacity: 1;\n      right: 0%;\n}\n}\n.rightSide[data-v-285394b6] {\n    position: relative;\n    top: 100vh;\n    -webkit-animation: animeRightDesktop-data-v-285394b6 2s 1s 1 forwards;\n            animation: animeRightDesktop-data-v-285394b6 2s 1s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n50% {\n      opacity: 0.7;\n      top: 0vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n50% {\n      opacity: 0.7;\n      top: 0vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n}\n", ""]);
+exports.push([module.i, "\n.signupContainer.success .leftSide[data-v-285394b6] {\n  background: url(\"/images/success_page_img.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: center;\n}\n.rightSide[data-v-285394b6] {\n  position: relative;\n  top: 100vh;\n  -webkit-animation: animeRightDesktop-data-v-285394b6 2s 0s 1 forwards;\n          animation: animeRightDesktop-data-v-285394b6 2s 0s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n    opacity: 0;\n    top: 100vh;\n}\n50% {\n    opacity: 0.7;\n    top: 0vh;\n}\n100% {\n    opacity: 1;\n    top: 0vh;\n}\n}\n.rightSide .theContent[data-v-285394b6] {\n  position: relative;\n  opacity: 0;\n  bottom: 1rem;\n  -webkit-animation: animeRightContent-data-v-285394b6 1s 1.2s 1 forwards;\n          animation: animeRightContent-data-v-285394b6 1s 1.2s 1 forwards;\n}\n@-webkit-keyframes animeRightContent-data-v-285394b6 {\n0% {\n    opacity: 0;\n    bottom: 1rem;\n}\n100% {\n    opacity: 1;\n    bottom: 0;\n}\n}\n@keyframes animeRightContent-data-v-285394b6 {\n0% {\n    opacity: 0;\n    bottom: 1rem;\n}\n100% {\n    opacity: 1;\n    bottom: 0;\n}\n}\n@media (max-width: 500px) {\n.mobileImgBG[data-v-285394b6] {\n    display: block;\n    background: url(\"/images/success_page_img.jpg\");\n    background-size: cover;\n    background-repeat: no-repeat;\n    background-position: center;\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    opacity: 0.5;\n}\n}\n@media (min-width: 500px) {\n.leftSide[data-v-285394b6] {\n    position: relative;\n    right: 100%;\n    -webkit-animation: animeleftDesktop-data-v-285394b6 2s 0s 1 forwards;\n            animation: animeleftDesktop-data-v-285394b6 2s 0s 1 forwards;\n}\n@-webkit-keyframes animeleftDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      right: 100%;\n}\n50% {\n      opacity: 0.7;\n      right: 0%;\n}\n100% {\n      opacity: 1;\n      right: 0%;\n}\n}\n@keyframes animeleftDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      right: 100%;\n}\n50% {\n      opacity: 0.7;\n      right: 0%;\n}\n100% {\n      opacity: 1;\n      right: 0%;\n}\n}\n.rightSide[data-v-285394b6] {\n    position: relative;\n    top: 100vh;\n    -webkit-animation: animeRightDesktop-data-v-285394b6 2s 1s 1 forwards;\n            animation: animeRightDesktop-data-v-285394b6 2s 1s 1 forwards;\n}\n@-webkit-keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n50% {\n      opacity: 0.7;\n      top: 0vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n@keyframes animeRightDesktop-data-v-285394b6 {\n0% {\n      opacity: 0;\n      top: 100vh;\n}\n50% {\n      opacity: 0.7;\n      top: 0vh;\n}\n100% {\n      opacity: 1;\n      top: 0vh;\n}\n}\n}\n", ""]);
 
 // exports
 
@@ -38246,53 +38213,6 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
-/*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
-  \*******************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              )
-            ])
-          ])
-        ])
-      ])
-    ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/HeaderComponent.vue?vue&type=template&id=153bfd55&":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/HeaderComponent.vue?vue&type=template&id=153bfd55& ***!
@@ -38358,9 +38278,9 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "infoCard shadow" }, [
-      _c("h3", [_vm._v("Anime Dating")]),
+      _c("h3", [_vm._v("Your Title")]),
       _vm._v(" "),
-      _c("p", [_c("span", [_vm._v("Find someone like you.")])]),
+      _c("p", [_c("span", [_vm._v("Catch Phrase.")])]),
       _vm._v(" "),
       _c("p", [_vm._v("Launching February 2020")])
     ])
@@ -38456,7 +38376,7 @@ var render = function() {
             ])
           ]),
           _vm._v(" "),
-          _vm.count >= 1
+          _vm.count >= 100
             ? _c(
                 "div",
                 { staticClass: "d-flex align-items-center theContent mt-3" },
@@ -50808,7 +50728,6 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 Vue.component('header-component', __webpack_require__(/*! ./components/HeaderComponent.vue */ "./resources/js/components/HeaderComponent.vue")["default"]);
 Vue.component('sidebar-component', __webpack_require__(/*! ./components/SidebarComponent.vue */ "./resources/js/components/SidebarComponent.vue")["default"]);
 Vue.component('editor-component', __webpack_require__(/*! ./components/EditorComponent.vue */ "./resources/js/components/EditorComponent.vue")["default"]);
@@ -50954,75 +50873,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EditorComponent_vue_vue_type_template_id_08a9ea75___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_EditorComponent_vue_vue_type_template_id_08a9ea75___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/components/ExampleComponent.vue":
-/*!******************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
-/* harmony import */ var _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/ExampleComponent.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ExampleComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
-/*!*************************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
-  \*************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

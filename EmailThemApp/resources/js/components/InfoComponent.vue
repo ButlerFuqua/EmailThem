@@ -2,9 +2,9 @@
   <div class="cardBordersContainer" :class="{animate: doAnimate}">
     <div class="cardBorders" :class="{animate: doAnimate}">
       <div class="infoCard shadow">
-        <h3>Anime Dating</h3>
+        <h3>Your Title</h3>
         <p>
-          <span>Find someone like you.</span>
+          <span>Catch Phrase.</span>
         </p>
         <p>Launching February 2020</p>
       </div>
@@ -31,7 +31,12 @@ export default {
   width: 22rem;
   max-width: 90%;
   padding: 1rem;
-  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  background-image: radial-gradient(
+    circle 248px at center,
+    #16d9e3 0%,
+    #30c7ec 47%,
+    #46aef7 100%
+  );
   color: #000;
   opacity: 0.8;
 }

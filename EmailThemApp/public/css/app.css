@@ -10651,7 +10651,7 @@ a.text-dark:focus {
 }
 
 .signupContainer .leftSide {
-  background: url("/images/standard_landing.jpg");
+  background: url("/images/success_page_img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -10680,7 +10680,7 @@ a.text-dark:focus {
 }
 
 .signupContainer .rightSide {
-  background-image: linear-gradient(to top, #a01eea 0%, #ff55d3 31%, #fa71cd 100%);
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -10708,7 +10708,7 @@ a.text-dark:focus {
 }
 
 .signupContainer .rightSide .theContent input:focus {
-  border-color: #a01eea;
+  border-color: #1e4eea;
 }
 
 .signupContainer .rightSide .theContent .btnContainer {
@@ -10716,11 +10716,11 @@ a.text-dark:focus {
 }
 
 .signupContainer .rightSide .theContent .btnContainer button {
-  color: #a01eea;
+  color: #1e4eea;
   overflow: hidden;
   position: relative;
   border-radius: 5px;
-  border: solid 3px #a01eea;
+  border: solid 3px #1e4eea;
   background: #fff;
   transition: all 1s ease;
   padding: 0.5rem 1rem;
@@ -10740,19 +10740,19 @@ a.text-dark:focus {
 }
 
 .signupContainer .rightSide .theContent .btnContainer button span.wave_1 {
-  background: #ff4242;
+  background: #4245ff;
   -webkit-animation: smallwave 3s infinite linear;
           animation: smallwave 3s infinite linear;
 }
 
 .signupContainer .rightSide .theContent .btnContainer button span.wave_2 {
-  background: #f35c78;
+  background: #5ca3f3;
   -webkit-animation: smallwave 4s infinite linear;
           animation: smallwave 4s infinite linear;
 }
 
 .signupContainer .rightSide .theContent .btnContainer button span.wave_3 {
-  background: #dd33ff;
+  background: #33ffe4;
   -webkit-animation: smallwave 5s infinite linear;
           animation: smallwave 5s infinite linear;
 }
@@ -10906,7 +10906,7 @@ main {
 
   .mobileImgBG {
     display: block;
-    background: url("/images/standard_landing.jpg");
+    background: url("/images/success_page_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

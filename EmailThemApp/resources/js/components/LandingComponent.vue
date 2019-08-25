@@ -42,7 +42,7 @@
             </div>
           </form>
         </div>
-        <div v-if="count >= 1" class="d-flex align-items-center theContent mt-3">
+        <div v-if="count >= 100" class="d-flex align-items-center theContent mt-3">
           <p class="mb-0">
             <strong style="font-size: 2.5rem;" class="display_font mr-1">{{ count }}</strong>
           </p>
@@ -75,14 +75,14 @@ export default {
 
 <style scoped>
 .signupContainer.female .leftSide {
-  background: url("/images/standard_landing.jpg");
+  background: url("/images/success_page_img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .signupContainer.couple .leftSide {
-  background: url("/images/real_couple.jpg");
+  background: url("/images/standard_landing.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -204,14 +204,14 @@ export default {
   }
 
   .female .mobileImgBG {
-    background: url("/images/standard_landing.jpg");
+    background: url("/images/success_page_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
 
   .couple .mobileImgBG {
-    background: url("/images/real_couple.jpg");
+    background: url("/images/standard_landing.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
