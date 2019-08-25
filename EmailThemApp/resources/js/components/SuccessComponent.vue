@@ -44,10 +44,10 @@ export default {
 .rightSide {
   position: relative;
   top: 100vh;
-  animation: animeRightDesktop 2s 0s 1 forwards;
+  animation: appRightDesktop 2s 0s 1 forwards;
 }
 
-@keyframes animeRightDesktop {
+@keyframes appRightDesktop {
   0% {
     opacity: 0;
     top: 100vh;
@@ -66,10 +66,10 @@ export default {
   position: relative;
   opacity: 0;
   bottom: 1rem;
-  animation: animeRightContent 1s 1.2s 1 forwards;
+  animation: appRightContent 1s 1.2s 1 forwards;
 }
 
-@keyframes animeRightContent {
+@keyframes appRightContent {
   0% {
     opacity: 0;
     bottom: 1rem;
@@ -98,10 +98,10 @@ export default {
   .leftSide {
     position: relative;
     right: 100%;
-    animation: animeleftDesktop 2s 0s 1 forwards;
+    animation: appleftDesktop 2s 0s 1 forwards;
   }
 
-  @keyframes animeleftDesktop {
+  @keyframes appleftDesktop {
     0% {
       opacity: 0;
       right: 100%;
@@ -119,10 +119,10 @@ export default {
   .rightSide {
     position: relative;
     top: 100vh;
-    animation: animeRightDesktop 2s 1s 1 forwards;
+    animation: appRightDesktop 2s 1s 1 forwards;
   }
 
-  @keyframes animeRightDesktop {
+  @keyframes appRightDesktop {
     0% {
       opacity: 0;
       top: 100vh;

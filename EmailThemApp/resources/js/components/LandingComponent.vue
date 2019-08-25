@@ -11,7 +11,7 @@
         class="d-flex flex-column justify-content-center align-content-center align-items-center"
       >
         <div class="mobileOnly heading">
-          <h1 class="display_font">Anime Dating</h1>
+          <h1 class="display_font">My App</h1>
         </div>
         <div class="theContent mb-3">
           <h3 class="display_font">Are you on the list!?</h3>
@@ -91,10 +91,10 @@ export default {
 .leftSide {
   position: relative;
   right: 100%;
-  animation: animeleftDesktop 2s 0s 1 forwards;
+  animation: appleftDesktop 2s 0s 1 forwards;
 }
 
-@keyframes animeleftDesktop {
+@keyframes appleftDesktop {
   0% {
     opacity: 0;
     right: 100%;
@@ -112,10 +112,10 @@ export default {
 .rightSide {
   position: relative;
   top: 100vh;
-  animation: animeRightDesktop 2s 1s 1 forwards;
+  animation: appRightDesktop 2s 1s 1 forwards;
 }
 
-@keyframes animeRightDesktop {
+@keyframes appRightDesktop {
   0% {
     opacity: 0;
     top: 100vh;
@@ -152,10 +152,10 @@ export default {
   .rightSide {
     position: relative;
     top: 100vh;
-    animation: animeRightDesktop 1s 0s 1 forwards;
+    animation: appRightDesktop 1s 0s 1 forwards;
   }
 
-  @keyframes animeRightDesktop {
+  @keyframes appRightDesktop {
     0% {
       opacity: 0;
       top: 100vh;
